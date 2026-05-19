@@ -1,0 +1,3942 @@
+{
+  "normal": {
+    "low": [
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis reste sur du simple, du lent et du verre d'eau discret.",
+        "tags": [
+          "score-low",
+          "mode-normal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis évite de transformer chaque phrase en chanson triste.",
+        "tags": [
+          "score-low",
+          "mode-normal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis garde juste assez de panache pour tenir jusqu'au midi.",
+        "tags": [
+          "score-low",
+          "mode-normal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis reste sur du simple, du lent et du verre d'eau discret.",
+        "tags": [
+          "combo-grounded",
+          "mode-normal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis évite de transformer chaque phrase en chanson triste.",
+        "tags": [
+          "combo-grounded",
+          "mode-normal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis garde juste assez de panache pour tenir jusqu'au midi.",
+        "tags": [
+          "combo-grounded",
+          "mode-normal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis reste sur du simple, du lent et du verre d'eau discret.",
+        "tags": [
+          "smile-medium",
+          "mode-normal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis évite de transformer chaque phrase en chanson triste.",
+        "tags": [
+          "smile-medium",
+          "mode-normal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis garde juste assez de panache pour tenir jusqu'au midi.",
+        "tags": [
+          "smile-medium",
+          "mode-normal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis reste sur du simple, du lent et du verre d'eau discret.",
+        "tags": [
+          "gaze-sharp",
+          "mode-normal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis évite de transformer chaque phrase en chanson triste.",
+        "tags": [
+          "gaze-sharp",
+          "mode-normal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis garde juste assez de panache pour tenir jusqu'au midi.",
+        "tags": [
+          "gaze-sharp",
+          "mode-normal",
+          "bucket-low"
+        ]
+      }
+    ],
+    "medium": [
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis reste sur du simple, du lent et du verre d'eau discret.",
+        "tags": [
+          "score-medium",
+          "mode-normal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis évite de transformer chaque phrase en chanson triste.",
+        "tags": [
+          "score-medium",
+          "mode-normal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis garde juste assez de panache pour tenir jusqu'au midi.",
+        "tags": [
+          "score-medium",
+          "mode-normal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis reste sur du simple, du lent et du verre d'eau discret.",
+        "tags": [
+          "gaze-distant",
+          "mode-normal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis évite de transformer chaque phrase en chanson triste.",
+        "tags": [
+          "gaze-distant",
+          "mode-normal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis garde juste assez de panache pour tenir jusqu'au midi.",
+        "tags": [
+          "gaze-distant",
+          "mode-normal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis reste sur du simple, du lent et du verre d'eau discret.",
+        "tags": [
+          "relax-relaxed",
+          "mode-normal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis évite de transformer chaque phrase en chanson triste.",
+        "tags": [
+          "relax-relaxed",
+          "mode-normal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis garde juste assez de panache pour tenir jusqu'au midi.",
+        "tags": [
+          "relax-relaxed",
+          "mode-normal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis reste sur du simple, du lent et du verre d'eau discret.",
+        "tags": [
+          "expression-dreamy",
+          "mode-normal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis évite de transformer chaque phrase en chanson triste.",
+        "tags": [
+          "expression-dreamy",
+          "mode-normal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis garde juste assez de panache pour tenir jusqu'au midi.",
+        "tags": [
+          "expression-dreamy",
+          "mode-normal",
+          "bucket-medium"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis reste sur du simple, du lent et du verre d'eau discret.",
+        "tags": [
+          "score-high",
+          "mode-normal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis évite de transformer chaque phrase en chanson triste.",
+        "tags": [
+          "score-high",
+          "mode-normal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis garde juste assez de panache pour tenir jusqu'au midi.",
+        "tags": [
+          "score-high",
+          "mode-normal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis reste sur du simple, du lent et du verre d'eau discret.",
+        "tags": [
+          "gaze-floating",
+          "mode-normal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis évite de transformer chaque phrase en chanson triste.",
+        "tags": [
+          "gaze-floating",
+          "mode-normal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis garde juste assez de panache pour tenir jusqu'au midi.",
+        "tags": [
+          "gaze-floating",
+          "mode-normal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis reste sur du simple, du lent et du verre d'eau discret.",
+        "tags": [
+          "relax-melted",
+          "mode-normal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis évite de transformer chaque phrase en chanson triste.",
+        "tags": [
+          "relax-melted",
+          "mode-normal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis garde juste assez de panache pour tenir jusqu'au midi.",
+        "tags": [
+          "relax-melted",
+          "mode-normal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis reste sur du simple, du lent et du verre d'eau discret.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-normal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis évite de transformer chaque phrase en chanson triste.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-normal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis garde juste assez de panache pour tenir jusqu'au midi.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-normal",
+          "bucket-high"
+        ]
+      }
+    ],
+    "extreme": [
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis reste sur du simple, du lent et du verre d'eau discret.",
+        "tags": [
+          "score-extreme",
+          "mode-normal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis évite de transformer chaque phrase en chanson triste.",
+        "tags": [
+          "score-extreme",
+          "mode-normal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis garde juste assez de panache pour tenir jusqu'au midi.",
+        "tags": [
+          "score-extreme",
+          "mode-normal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis reste sur du simple, du lent et du verre d'eau discret.",
+        "tags": [
+          "relax-melted",
+          "mode-normal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis évite de transformer chaque phrase en chanson triste.",
+        "tags": [
+          "relax-melted",
+          "mode-normal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis garde juste assez de panache pour tenir jusqu'au midi.",
+        "tags": [
+          "relax-melted",
+          "mode-normal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis reste sur du simple, du lent et du verre d'eau discret.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-normal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis évite de transformer chaque phrase en chanson triste.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-normal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis garde juste assez de panache pour tenir jusqu'au midi.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-normal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis reste sur du simple, du lent et du verre d'eau discret.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-normal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis évite de transformer chaque phrase en chanson triste.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-normal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis garde juste assez de panache pour tenir jusqu'au midi.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-normal",
+          "bucket-extreme"
+        ]
+      }
+    ]
+  },
+  "gentil": {
+    "low": [
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis garde du calme, de l'eau et zéro agressivité inutile.",
+        "tags": [
+          "score-low",
+          "mode-gentil",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis avance en douceur au lieu de combattre la gravité.",
+        "tags": [
+          "score-low",
+          "mode-gentil",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis protège ton sourire, il travaille pour toi.",
+        "tags": [
+          "score-low",
+          "mode-gentil",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis garde du calme, de l'eau et zéro agressivité inutile.",
+        "tags": [
+          "combo-grounded",
+          "mode-gentil",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis avance en douceur au lieu de combattre la gravité.",
+        "tags": [
+          "combo-grounded",
+          "mode-gentil",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis protège ton sourire, il travaille pour toi.",
+        "tags": [
+          "combo-grounded",
+          "mode-gentil",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis garde du calme, de l'eau et zéro agressivité inutile.",
+        "tags": [
+          "smile-medium",
+          "mode-gentil",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis avance en douceur au lieu de combattre la gravité.",
+        "tags": [
+          "smile-medium",
+          "mode-gentil",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis protège ton sourire, il travaille pour toi.",
+        "tags": [
+          "smile-medium",
+          "mode-gentil",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis garde du calme, de l'eau et zéro agressivité inutile.",
+        "tags": [
+          "gaze-sharp",
+          "mode-gentil",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis avance en douceur au lieu de combattre la gravité.",
+        "tags": [
+          "gaze-sharp",
+          "mode-gentil",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis protège ton sourire, il travaille pour toi.",
+        "tags": [
+          "gaze-sharp",
+          "mode-gentil",
+          "bucket-low"
+        ]
+      }
+    ],
+    "medium": [
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis garde du calme, de l'eau et zéro agressivité inutile.",
+        "tags": [
+          "score-medium",
+          "mode-gentil",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis avance en douceur au lieu de combattre la gravité.",
+        "tags": [
+          "score-medium",
+          "mode-gentil",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis protège ton sourire, il travaille pour toi.",
+        "tags": [
+          "score-medium",
+          "mode-gentil",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis garde du calme, de l'eau et zéro agressivité inutile.",
+        "tags": [
+          "gaze-distant",
+          "mode-gentil",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis avance en douceur au lieu de combattre la gravité.",
+        "tags": [
+          "gaze-distant",
+          "mode-gentil",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis protège ton sourire, il travaille pour toi.",
+        "tags": [
+          "gaze-distant",
+          "mode-gentil",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis garde du calme, de l'eau et zéro agressivité inutile.",
+        "tags": [
+          "relax-relaxed",
+          "mode-gentil",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis avance en douceur au lieu de combattre la gravité.",
+        "tags": [
+          "relax-relaxed",
+          "mode-gentil",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis protège ton sourire, il travaille pour toi.",
+        "tags": [
+          "relax-relaxed",
+          "mode-gentil",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis garde du calme, de l'eau et zéro agressivité inutile.",
+        "tags": [
+          "expression-dreamy",
+          "mode-gentil",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis avance en douceur au lieu de combattre la gravité.",
+        "tags": [
+          "expression-dreamy",
+          "mode-gentil",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis protège ton sourire, il travaille pour toi.",
+        "tags": [
+          "expression-dreamy",
+          "mode-gentil",
+          "bucket-medium"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis garde du calme, de l'eau et zéro agressivité inutile.",
+        "tags": [
+          "score-high",
+          "mode-gentil",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis avance en douceur au lieu de combattre la gravité.",
+        "tags": [
+          "score-high",
+          "mode-gentil",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis protège ton sourire, il travaille pour toi.",
+        "tags": [
+          "score-high",
+          "mode-gentil",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis garde du calme, de l'eau et zéro agressivité inutile.",
+        "tags": [
+          "gaze-floating",
+          "mode-gentil",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis avance en douceur au lieu de combattre la gravité.",
+        "tags": [
+          "gaze-floating",
+          "mode-gentil",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis protège ton sourire, il travaille pour toi.",
+        "tags": [
+          "gaze-floating",
+          "mode-gentil",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis garde du calme, de l'eau et zéro agressivité inutile.",
+        "tags": [
+          "relax-melted",
+          "mode-gentil",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis avance en douceur au lieu de combattre la gravité.",
+        "tags": [
+          "relax-melted",
+          "mode-gentil",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis protège ton sourire, il travaille pour toi.",
+        "tags": [
+          "relax-melted",
+          "mode-gentil",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis garde du calme, de l'eau et zéro agressivité inutile.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-gentil",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis avance en douceur au lieu de combattre la gravité.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-gentil",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis protège ton sourire, il travaille pour toi.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-gentil",
+          "bucket-high"
+        ]
+      }
+    ],
+    "extreme": [
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis garde du calme, de l'eau et zéro agressivité inutile.",
+        "tags": [
+          "score-extreme",
+          "mode-gentil",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis avance en douceur au lieu de combattre la gravité.",
+        "tags": [
+          "score-extreme",
+          "mode-gentil",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis protège ton sourire, il travaille pour toi.",
+        "tags": [
+          "score-extreme",
+          "mode-gentil",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis garde du calme, de l'eau et zéro agressivité inutile.",
+        "tags": [
+          "relax-melted",
+          "mode-gentil",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis avance en douceur au lieu de combattre la gravité.",
+        "tags": [
+          "relax-melted",
+          "mode-gentil",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis protège ton sourire, il travaille pour toi.",
+        "tags": [
+          "relax-melted",
+          "mode-gentil",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis garde du calme, de l'eau et zéro agressivité inutile.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-gentil",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis avance en douceur au lieu de combattre la gravité.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-gentil",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis protège ton sourire, il travaille pour toi.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-gentil",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis garde du calme, de l'eau et zéro agressivité inutile.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-gentil",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis avance en douceur au lieu de combattre la gravité.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-gentil",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis protège ton sourire, il travaille pour toi.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-gentil",
+          "bucket-extreme"
+        ]
+      }
+    ]
+  },
+  "brutal": {
+    "low": [
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis réduis le show, garde la pose et ménage la batterie.",
+        "tags": [
+          "score-low",
+          "mode-brutal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis fais moins de solo et plus de stabilité.",
+        "tags": [
+          "score-low",
+          "mode-brutal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis le charisme suffit, pas besoin d'une performance bonus.",
+        "tags": [
+          "score-low",
+          "mode-brutal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis réduis le show, garde la pose et ménage la batterie.",
+        "tags": [
+          "combo-grounded",
+          "mode-brutal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis fais moins de solo et plus de stabilité.",
+        "tags": [
+          "combo-grounded",
+          "mode-brutal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis le charisme suffit, pas besoin d'une performance bonus.",
+        "tags": [
+          "combo-grounded",
+          "mode-brutal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis réduis le show, garde la pose et ménage la batterie.",
+        "tags": [
+          "smile-medium",
+          "mode-brutal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis fais moins de solo et plus de stabilité.",
+        "tags": [
+          "smile-medium",
+          "mode-brutal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis le charisme suffit, pas besoin d'une performance bonus.",
+        "tags": [
+          "smile-medium",
+          "mode-brutal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis réduis le show, garde la pose et ménage la batterie.",
+        "tags": [
+          "gaze-sharp",
+          "mode-brutal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis fais moins de solo et plus de stabilité.",
+        "tags": [
+          "gaze-sharp",
+          "mode-brutal",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis le charisme suffit, pas besoin d'une performance bonus.",
+        "tags": [
+          "gaze-sharp",
+          "mode-brutal",
+          "bucket-low"
+        ]
+      }
+    ],
+    "medium": [
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis réduis le show, garde la pose et ménage la batterie.",
+        "tags": [
+          "score-medium",
+          "mode-brutal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis fais moins de solo et plus de stabilité.",
+        "tags": [
+          "score-medium",
+          "mode-brutal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis le charisme suffit, pas besoin d'une performance bonus.",
+        "tags": [
+          "score-medium",
+          "mode-brutal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis réduis le show, garde la pose et ménage la batterie.",
+        "tags": [
+          "gaze-distant",
+          "mode-brutal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis fais moins de solo et plus de stabilité.",
+        "tags": [
+          "gaze-distant",
+          "mode-brutal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis le charisme suffit, pas besoin d'une performance bonus.",
+        "tags": [
+          "gaze-distant",
+          "mode-brutal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis réduis le show, garde la pose et ménage la batterie.",
+        "tags": [
+          "relax-relaxed",
+          "mode-brutal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis fais moins de solo et plus de stabilité.",
+        "tags": [
+          "relax-relaxed",
+          "mode-brutal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis le charisme suffit, pas besoin d'une performance bonus.",
+        "tags": [
+          "relax-relaxed",
+          "mode-brutal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis réduis le show, garde la pose et ménage la batterie.",
+        "tags": [
+          "expression-dreamy",
+          "mode-brutal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis fais moins de solo et plus de stabilité.",
+        "tags": [
+          "expression-dreamy",
+          "mode-brutal",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis le charisme suffit, pas besoin d'une performance bonus.",
+        "tags": [
+          "expression-dreamy",
+          "mode-brutal",
+          "bucket-medium"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis réduis le show, garde la pose et ménage la batterie.",
+        "tags": [
+          "score-high",
+          "mode-brutal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis fais moins de solo et plus de stabilité.",
+        "tags": [
+          "score-high",
+          "mode-brutal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis le charisme suffit, pas besoin d'une performance bonus.",
+        "tags": [
+          "score-high",
+          "mode-brutal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis réduis le show, garde la pose et ménage la batterie.",
+        "tags": [
+          "gaze-floating",
+          "mode-brutal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis fais moins de solo et plus de stabilité.",
+        "tags": [
+          "gaze-floating",
+          "mode-brutal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis le charisme suffit, pas besoin d'une performance bonus.",
+        "tags": [
+          "gaze-floating",
+          "mode-brutal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis réduis le show, garde la pose et ménage la batterie.",
+        "tags": [
+          "relax-melted",
+          "mode-brutal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis fais moins de solo et plus de stabilité.",
+        "tags": [
+          "relax-melted",
+          "mode-brutal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis le charisme suffit, pas besoin d'une performance bonus.",
+        "tags": [
+          "relax-melted",
+          "mode-brutal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis réduis le show, garde la pose et ménage la batterie.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-brutal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis fais moins de solo et plus de stabilité.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-brutal",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis le charisme suffit, pas besoin d'une performance bonus.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-brutal",
+          "bucket-high"
+        ]
+      }
+    ],
+    "extreme": [
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis réduis le show, garde la pose et ménage la batterie.",
+        "tags": [
+          "score-extreme",
+          "mode-brutal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis fais moins de solo et plus de stabilité.",
+        "tags": [
+          "score-extreme",
+          "mode-brutal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis le charisme suffit, pas besoin d'une performance bonus.",
+        "tags": [
+          "score-extreme",
+          "mode-brutal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis réduis le show, garde la pose et ménage la batterie.",
+        "tags": [
+          "relax-melted",
+          "mode-brutal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis fais moins de solo et plus de stabilité.",
+        "tags": [
+          "relax-melted",
+          "mode-brutal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis le charisme suffit, pas besoin d'une performance bonus.",
+        "tags": [
+          "relax-melted",
+          "mode-brutal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis réduis le show, garde la pose et ménage la batterie.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-brutal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis fais moins de solo et plus de stabilité.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-brutal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis le charisme suffit, pas besoin d'une performance bonus.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-brutal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis réduis le show, garde la pose et ménage la batterie.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-brutal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis fais moins de solo et plus de stabilité.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-brutal",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis le charisme suffit, pas besoin d'une performance bonus.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-brutal",
+          "bucket-extreme"
+        ]
+      }
+    ]
+  },
+  "bureau": {
+    "low": [
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis fais une idée à la fois, sans thèse ni annexe.",
+        "tags": [
+          "score-low",
+          "mode-bureau",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis garde ton monde à hauteur de coussin.",
+        "tags": [
+          "score-low",
+          "mode-bureau",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis n'accepte aucune urgence qui ne rentre pas dans un plaid.",
+        "tags": [
+          "score-low",
+          "mode-bureau",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis fais une idée à la fois, sans thèse ni annexe.",
+        "tags": [
+          "combo-grounded",
+          "mode-bureau",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis garde ton monde à hauteur de coussin.",
+        "tags": [
+          "combo-grounded",
+          "mode-bureau",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis n'accepte aucune urgence qui ne rentre pas dans un plaid.",
+        "tags": [
+          "combo-grounded",
+          "mode-bureau",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis fais une idée à la fois, sans thèse ni annexe.",
+        "tags": [
+          "smile-medium",
+          "mode-bureau",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis garde ton monde à hauteur de coussin.",
+        "tags": [
+          "smile-medium",
+          "mode-bureau",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis n'accepte aucune urgence qui ne rentre pas dans un plaid.",
+        "tags": [
+          "smile-medium",
+          "mode-bureau",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis fais une idée à la fois, sans thèse ni annexe.",
+        "tags": [
+          "gaze-sharp",
+          "mode-bureau",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis garde ton monde à hauteur de coussin.",
+        "tags": [
+          "gaze-sharp",
+          "mode-bureau",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis n'accepte aucune urgence qui ne rentre pas dans un plaid.",
+        "tags": [
+          "gaze-sharp",
+          "mode-bureau",
+          "bucket-low"
+        ]
+      }
+    ],
+    "medium": [
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis fais une idée à la fois, sans thèse ni annexe.",
+        "tags": [
+          "score-medium",
+          "mode-bureau",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis garde ton monde à hauteur de coussin.",
+        "tags": [
+          "score-medium",
+          "mode-bureau",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis n'accepte aucune urgence qui ne rentre pas dans un plaid.",
+        "tags": [
+          "score-medium",
+          "mode-bureau",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis fais une idée à la fois, sans thèse ni annexe.",
+        "tags": [
+          "gaze-distant",
+          "mode-bureau",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis garde ton monde à hauteur de coussin.",
+        "tags": [
+          "gaze-distant",
+          "mode-bureau",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis n'accepte aucune urgence qui ne rentre pas dans un plaid.",
+        "tags": [
+          "gaze-distant",
+          "mode-bureau",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis fais une idée à la fois, sans thèse ni annexe.",
+        "tags": [
+          "relax-relaxed",
+          "mode-bureau",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis garde ton monde à hauteur de coussin.",
+        "tags": [
+          "relax-relaxed",
+          "mode-bureau",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis n'accepte aucune urgence qui ne rentre pas dans un plaid.",
+        "tags": [
+          "relax-relaxed",
+          "mode-bureau",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis fais une idée à la fois, sans thèse ni annexe.",
+        "tags": [
+          "expression-dreamy",
+          "mode-bureau",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis garde ton monde à hauteur de coussin.",
+        "tags": [
+          "expression-dreamy",
+          "mode-bureau",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis n'accepte aucune urgence qui ne rentre pas dans un plaid.",
+        "tags": [
+          "expression-dreamy",
+          "mode-bureau",
+          "bucket-medium"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis fais une idée à la fois, sans thèse ni annexe.",
+        "tags": [
+          "score-high",
+          "mode-bureau",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis garde ton monde à hauteur de coussin.",
+        "tags": [
+          "score-high",
+          "mode-bureau",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis n'accepte aucune urgence qui ne rentre pas dans un plaid.",
+        "tags": [
+          "score-high",
+          "mode-bureau",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis fais une idée à la fois, sans thèse ni annexe.",
+        "tags": [
+          "gaze-floating",
+          "mode-bureau",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis garde ton monde à hauteur de coussin.",
+        "tags": [
+          "gaze-floating",
+          "mode-bureau",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis n'accepte aucune urgence qui ne rentre pas dans un plaid.",
+        "tags": [
+          "gaze-floating",
+          "mode-bureau",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis fais une idée à la fois, sans thèse ni annexe.",
+        "tags": [
+          "relax-melted",
+          "mode-bureau",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis garde ton monde à hauteur de coussin.",
+        "tags": [
+          "relax-melted",
+          "mode-bureau",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis n'accepte aucune urgence qui ne rentre pas dans un plaid.",
+        "tags": [
+          "relax-melted",
+          "mode-bureau",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis fais une idée à la fois, sans thèse ni annexe.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-bureau",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis garde ton monde à hauteur de coussin.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-bureau",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis n'accepte aucune urgence qui ne rentre pas dans un plaid.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-bureau",
+          "bucket-high"
+        ]
+      }
+    ],
+    "extreme": [
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis fais une idée à la fois, sans thèse ni annexe.",
+        "tags": [
+          "score-extreme",
+          "mode-bureau",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis garde ton monde à hauteur de coussin.",
+        "tags": [
+          "score-extreme",
+          "mode-bureau",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis n'accepte aucune urgence qui ne rentre pas dans un plaid.",
+        "tags": [
+          "score-extreme",
+          "mode-bureau",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis fais une idée à la fois, sans thèse ni annexe.",
+        "tags": [
+          "relax-melted",
+          "mode-bureau",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis garde ton monde à hauteur de coussin.",
+        "tags": [
+          "relax-melted",
+          "mode-bureau",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis n'accepte aucune urgence qui ne rentre pas dans un plaid.",
+        "tags": [
+          "relax-melted",
+          "mode-bureau",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis fais une idée à la fois, sans thèse ni annexe.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-bureau",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis garde ton monde à hauteur de coussin.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-bureau",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis n'accepte aucune urgence qui ne rentre pas dans un plaid.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-bureau",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis fais une idée à la fois, sans thèse ni annexe.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-bureau",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis garde ton monde à hauteur de coussin.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-bureau",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis n'accepte aucune urgence qui ne rentre pas dans un plaid.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-bureau",
+          "bucket-extreme"
+        ]
+      }
+    ]
+  },
+  "etudiant": {
+    "low": [
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis eau, ombre, respiration, puis seulement le reste.",
+        "tags": [
+          "score-low",
+          "mode-etudiant",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis ne fais pas semblant d'être plus frais que ton regard.",
+        "tags": [
+          "score-low",
+          "mode-etudiant",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis garde ton énergie pour rejoindre la journée vivant.",
+        "tags": [
+          "score-low",
+          "mode-etudiant",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis eau, ombre, respiration, puis seulement le reste.",
+        "tags": [
+          "combo-grounded",
+          "mode-etudiant",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis ne fais pas semblant d'être plus frais que ton regard.",
+        "tags": [
+          "combo-grounded",
+          "mode-etudiant",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis garde ton énergie pour rejoindre la journée vivant.",
+        "tags": [
+          "combo-grounded",
+          "mode-etudiant",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis eau, ombre, respiration, puis seulement le reste.",
+        "tags": [
+          "smile-medium",
+          "mode-etudiant",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis ne fais pas semblant d'être plus frais que ton regard.",
+        "tags": [
+          "smile-medium",
+          "mode-etudiant",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis garde ton énergie pour rejoindre la journée vivant.",
+        "tags": [
+          "smile-medium",
+          "mode-etudiant",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis eau, ombre, respiration, puis seulement le reste.",
+        "tags": [
+          "gaze-sharp",
+          "mode-etudiant",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis ne fais pas semblant d'être plus frais que ton regard.",
+        "tags": [
+          "gaze-sharp",
+          "mode-etudiant",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis garde ton énergie pour rejoindre la journée vivant.",
+        "tags": [
+          "gaze-sharp",
+          "mode-etudiant",
+          "bucket-low"
+        ]
+      }
+    ],
+    "medium": [
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis eau, ombre, respiration, puis seulement le reste.",
+        "tags": [
+          "score-medium",
+          "mode-etudiant",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis ne fais pas semblant d'être plus frais que ton regard.",
+        "tags": [
+          "score-medium",
+          "mode-etudiant",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis garde ton énergie pour rejoindre la journée vivant.",
+        "tags": [
+          "score-medium",
+          "mode-etudiant",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis eau, ombre, respiration, puis seulement le reste.",
+        "tags": [
+          "gaze-distant",
+          "mode-etudiant",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis ne fais pas semblant d'être plus frais que ton regard.",
+        "tags": [
+          "gaze-distant",
+          "mode-etudiant",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis garde ton énergie pour rejoindre la journée vivant.",
+        "tags": [
+          "gaze-distant",
+          "mode-etudiant",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis eau, ombre, respiration, puis seulement le reste.",
+        "tags": [
+          "relax-relaxed",
+          "mode-etudiant",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis ne fais pas semblant d'être plus frais que ton regard.",
+        "tags": [
+          "relax-relaxed",
+          "mode-etudiant",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis garde ton énergie pour rejoindre la journée vivant.",
+        "tags": [
+          "relax-relaxed",
+          "mode-etudiant",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis eau, ombre, respiration, puis seulement le reste.",
+        "tags": [
+          "expression-dreamy",
+          "mode-etudiant",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis ne fais pas semblant d'être plus frais que ton regard.",
+        "tags": [
+          "expression-dreamy",
+          "mode-etudiant",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis garde ton énergie pour rejoindre la journée vivant.",
+        "tags": [
+          "expression-dreamy",
+          "mode-etudiant",
+          "bucket-medium"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis eau, ombre, respiration, puis seulement le reste.",
+        "tags": [
+          "score-high",
+          "mode-etudiant",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis ne fais pas semblant d'être plus frais que ton regard.",
+        "tags": [
+          "score-high",
+          "mode-etudiant",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis garde ton énergie pour rejoindre la journée vivant.",
+        "tags": [
+          "score-high",
+          "mode-etudiant",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis eau, ombre, respiration, puis seulement le reste.",
+        "tags": [
+          "gaze-floating",
+          "mode-etudiant",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis ne fais pas semblant d'être plus frais que ton regard.",
+        "tags": [
+          "gaze-floating",
+          "mode-etudiant",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis garde ton énergie pour rejoindre la journée vivant.",
+        "tags": [
+          "gaze-floating",
+          "mode-etudiant",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis eau, ombre, respiration, puis seulement le reste.",
+        "tags": [
+          "relax-melted",
+          "mode-etudiant",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis ne fais pas semblant d'être plus frais que ton regard.",
+        "tags": [
+          "relax-melted",
+          "mode-etudiant",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis garde ton énergie pour rejoindre la journée vivant.",
+        "tags": [
+          "relax-melted",
+          "mode-etudiant",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis eau, ombre, respiration, puis seulement le reste.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-etudiant",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis ne fais pas semblant d'être plus frais que ton regard.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-etudiant",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis garde ton énergie pour rejoindre la journée vivant.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-etudiant",
+          "bucket-high"
+        ]
+      }
+    ],
+    "extreme": [
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis eau, ombre, respiration, puis seulement le reste.",
+        "tags": [
+          "score-extreme",
+          "mode-etudiant",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis ne fais pas semblant d'être plus frais que ton regard.",
+        "tags": [
+          "score-extreme",
+          "mode-etudiant",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis garde ton énergie pour rejoindre la journée vivant.",
+        "tags": [
+          "score-extreme",
+          "mode-etudiant",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis eau, ombre, respiration, puis seulement le reste.",
+        "tags": [
+          "relax-melted",
+          "mode-etudiant",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis ne fais pas semblant d'être plus frais que ton regard.",
+        "tags": [
+          "relax-melted",
+          "mode-etudiant",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis garde ton énergie pour rejoindre la journée vivant.",
+        "tags": [
+          "relax-melted",
+          "mode-etudiant",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis eau, ombre, respiration, puis seulement le reste.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-etudiant",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis ne fais pas semblant d'être plus frais que ton regard.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-etudiant",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis garde ton énergie pour rejoindre la journée vivant.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-etudiant",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis eau, ombre, respiration, puis seulement le reste.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-etudiant",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis ne fais pas semblant d'être plus frais que ton regard.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-etudiant",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis garde ton énergie pour rejoindre la journée vivant.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-etudiant",
+          "bucket-extreme"
+        ]
+      }
+    ]
+  },
+  "parent": {
+    "low": [
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis garde le tempo bas et les gestes simples.",
+        "tags": [
+          "score-low",
+          "mode-parent",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis ne monte pas le BPM de ta journée pour rien.",
+        "tags": [
+          "score-low",
+          "mode-parent",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis fais confiance à l'eau et à la lenteur.",
+        "tags": [
+          "score-low",
+          "mode-parent",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis garde le tempo bas et les gestes simples.",
+        "tags": [
+          "combo-grounded",
+          "mode-parent",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis ne monte pas le BPM de ta journée pour rien.",
+        "tags": [
+          "combo-grounded",
+          "mode-parent",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis fais confiance à l'eau et à la lenteur.",
+        "tags": [
+          "combo-grounded",
+          "mode-parent",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis garde le tempo bas et les gestes simples.",
+        "tags": [
+          "smile-medium",
+          "mode-parent",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis ne monte pas le BPM de ta journée pour rien.",
+        "tags": [
+          "smile-medium",
+          "mode-parent",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis fais confiance à l'eau et à la lenteur.",
+        "tags": [
+          "smile-medium",
+          "mode-parent",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis garde le tempo bas et les gestes simples.",
+        "tags": [
+          "gaze-sharp",
+          "mode-parent",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis ne monte pas le BPM de ta journée pour rien.",
+        "tags": [
+          "gaze-sharp",
+          "mode-parent",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis fais confiance à l'eau et à la lenteur.",
+        "tags": [
+          "gaze-sharp",
+          "mode-parent",
+          "bucket-low"
+        ]
+      }
+    ],
+    "medium": [
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis garde le tempo bas et les gestes simples.",
+        "tags": [
+          "score-medium",
+          "mode-parent",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis ne monte pas le BPM de ta journée pour rien.",
+        "tags": [
+          "score-medium",
+          "mode-parent",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis fais confiance à l'eau et à la lenteur.",
+        "tags": [
+          "score-medium",
+          "mode-parent",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis garde le tempo bas et les gestes simples.",
+        "tags": [
+          "gaze-distant",
+          "mode-parent",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis ne monte pas le BPM de ta journée pour rien.",
+        "tags": [
+          "gaze-distant",
+          "mode-parent",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis fais confiance à l'eau et à la lenteur.",
+        "tags": [
+          "gaze-distant",
+          "mode-parent",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis garde le tempo bas et les gestes simples.",
+        "tags": [
+          "relax-relaxed",
+          "mode-parent",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis ne monte pas le BPM de ta journée pour rien.",
+        "tags": [
+          "relax-relaxed",
+          "mode-parent",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis fais confiance à l'eau et à la lenteur.",
+        "tags": [
+          "relax-relaxed",
+          "mode-parent",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis garde le tempo bas et les gestes simples.",
+        "tags": [
+          "expression-dreamy",
+          "mode-parent",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis ne monte pas le BPM de ta journée pour rien.",
+        "tags": [
+          "expression-dreamy",
+          "mode-parent",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis fais confiance à l'eau et à la lenteur.",
+        "tags": [
+          "expression-dreamy",
+          "mode-parent",
+          "bucket-medium"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis garde le tempo bas et les gestes simples.",
+        "tags": [
+          "score-high",
+          "mode-parent",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis ne monte pas le BPM de ta journée pour rien.",
+        "tags": [
+          "score-high",
+          "mode-parent",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis fais confiance à l'eau et à la lenteur.",
+        "tags": [
+          "score-high",
+          "mode-parent",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis garde le tempo bas et les gestes simples.",
+        "tags": [
+          "gaze-floating",
+          "mode-parent",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis ne monte pas le BPM de ta journée pour rien.",
+        "tags": [
+          "gaze-floating",
+          "mode-parent",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis fais confiance à l'eau et à la lenteur.",
+        "tags": [
+          "gaze-floating",
+          "mode-parent",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis garde le tempo bas et les gestes simples.",
+        "tags": [
+          "relax-melted",
+          "mode-parent",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis ne monte pas le BPM de ta journée pour rien.",
+        "tags": [
+          "relax-melted",
+          "mode-parent",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis fais confiance à l'eau et à la lenteur.",
+        "tags": [
+          "relax-melted",
+          "mode-parent",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis garde le tempo bas et les gestes simples.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-parent",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis ne monte pas le BPM de ta journée pour rien.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-parent",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis fais confiance à l'eau et à la lenteur.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-parent",
+          "bucket-high"
+        ]
+      }
+    ],
+    "extreme": [
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis garde le tempo bas et les gestes simples.",
+        "tags": [
+          "score-extreme",
+          "mode-parent",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis ne monte pas le BPM de ta journée pour rien.",
+        "tags": [
+          "score-extreme",
+          "mode-parent",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis fais confiance à l'eau et à la lenteur.",
+        "tags": [
+          "score-extreme",
+          "mode-parent",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis garde le tempo bas et les gestes simples.",
+        "tags": [
+          "relax-melted",
+          "mode-parent",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis ne monte pas le BPM de ta journée pour rien.",
+        "tags": [
+          "relax-melted",
+          "mode-parent",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis fais confiance à l'eau et à la lenteur.",
+        "tags": [
+          "relax-melted",
+          "mode-parent",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis garde le tempo bas et les gestes simples.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-parent",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis ne monte pas le BPM de ta journée pour rien.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-parent",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis fais confiance à l'eau et à la lenteur.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-parent",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis garde le tempo bas et les gestes simples.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-parent",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis ne monte pas le BPM de ta journée pour rien.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-parent",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis fais confiance à l'eau et à la lenteur.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-parent",
+          "bucket-extreme"
+        ]
+      }
+    ]
+  },
+  "couple": {
+    "low": [
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis garde ta journée très simple et ne force rien.",
+        "tags": [
+          "score-low",
+          "mode-couple",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis autorise-toi une lenteur choisie.",
+        "tags": [
+          "score-low",
+          "mode-couple",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis évite tout ce qui demande une présence millimétrée.",
+        "tags": [
+          "score-low",
+          "mode-couple",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis garde ta journée très simple et ne force rien.",
+        "tags": [
+          "combo-grounded",
+          "mode-couple",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis autorise-toi une lenteur choisie.",
+        "tags": [
+          "combo-grounded",
+          "mode-couple",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis évite tout ce qui demande une présence millimétrée.",
+        "tags": [
+          "combo-grounded",
+          "mode-couple",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis garde ta journée très simple et ne force rien.",
+        "tags": [
+          "smile-medium",
+          "mode-couple",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis autorise-toi une lenteur choisie.",
+        "tags": [
+          "smile-medium",
+          "mode-couple",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis évite tout ce qui demande une présence millimétrée.",
+        "tags": [
+          "smile-medium",
+          "mode-couple",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis garde ta journée très simple et ne force rien.",
+        "tags": [
+          "gaze-sharp",
+          "mode-couple",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis autorise-toi une lenteur choisie.",
+        "tags": [
+          "gaze-sharp",
+          "mode-couple",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis évite tout ce qui demande une présence millimétrée.",
+        "tags": [
+          "gaze-sharp",
+          "mode-couple",
+          "bucket-low"
+        ]
+      }
+    ],
+    "medium": [
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis garde ta journée très simple et ne force rien.",
+        "tags": [
+          "score-medium",
+          "mode-couple",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis autorise-toi une lenteur choisie.",
+        "tags": [
+          "score-medium",
+          "mode-couple",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis évite tout ce qui demande une présence millimétrée.",
+        "tags": [
+          "score-medium",
+          "mode-couple",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis garde ta journée très simple et ne force rien.",
+        "tags": [
+          "gaze-distant",
+          "mode-couple",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis autorise-toi une lenteur choisie.",
+        "tags": [
+          "gaze-distant",
+          "mode-couple",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis évite tout ce qui demande une présence millimétrée.",
+        "tags": [
+          "gaze-distant",
+          "mode-couple",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis garde ta journée très simple et ne force rien.",
+        "tags": [
+          "relax-relaxed",
+          "mode-couple",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis autorise-toi une lenteur choisie.",
+        "tags": [
+          "relax-relaxed",
+          "mode-couple",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis évite tout ce qui demande une présence millimétrée.",
+        "tags": [
+          "relax-relaxed",
+          "mode-couple",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis garde ta journée très simple et ne force rien.",
+        "tags": [
+          "expression-dreamy",
+          "mode-couple",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis autorise-toi une lenteur choisie.",
+        "tags": [
+          "expression-dreamy",
+          "mode-couple",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis évite tout ce qui demande une présence millimétrée.",
+        "tags": [
+          "expression-dreamy",
+          "mode-couple",
+          "bucket-medium"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis garde ta journée très simple et ne force rien.",
+        "tags": [
+          "score-high",
+          "mode-couple",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis autorise-toi une lenteur choisie.",
+        "tags": [
+          "score-high",
+          "mode-couple",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis évite tout ce qui demande une présence millimétrée.",
+        "tags": [
+          "score-high",
+          "mode-couple",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis garde ta journée très simple et ne force rien.",
+        "tags": [
+          "gaze-floating",
+          "mode-couple",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis autorise-toi une lenteur choisie.",
+        "tags": [
+          "gaze-floating",
+          "mode-couple",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis évite tout ce qui demande une présence millimétrée.",
+        "tags": [
+          "gaze-floating",
+          "mode-couple",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis garde ta journée très simple et ne force rien.",
+        "tags": [
+          "relax-melted",
+          "mode-couple",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis autorise-toi une lenteur choisie.",
+        "tags": [
+          "relax-melted",
+          "mode-couple",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis évite tout ce qui demande une présence millimétrée.",
+        "tags": [
+          "relax-melted",
+          "mode-couple",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis garde ta journée très simple et ne force rien.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-couple",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis autorise-toi une lenteur choisie.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-couple",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis évite tout ce qui demande une présence millimétrée.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-couple",
+          "bucket-high"
+        ]
+      }
+    ],
+    "extreme": [
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis garde ta journée très simple et ne force rien.",
+        "tags": [
+          "score-extreme",
+          "mode-couple",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis autorise-toi une lenteur choisie.",
+        "tags": [
+          "score-extreme",
+          "mode-couple",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis évite tout ce qui demande une présence millimétrée.",
+        "tags": [
+          "score-extreme",
+          "mode-couple",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis garde ta journée très simple et ne force rien.",
+        "tags": [
+          "relax-melted",
+          "mode-couple",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis autorise-toi une lenteur choisie.",
+        "tags": [
+          "relax-melted",
+          "mode-couple",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis évite tout ce qui demande une présence millimétrée.",
+        "tags": [
+          "relax-melted",
+          "mode-couple",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis garde ta journée très simple et ne force rien.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-couple",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis autorise-toi une lenteur choisie.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-couple",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis évite tout ce qui demande une présence millimétrée.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-couple",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis garde ta journée très simple et ne force rien.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-couple",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis autorise-toi une lenteur choisie.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-couple",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis évite tout ce qui demande une présence millimétrée.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-couple",
+          "bucket-extreme"
+        ]
+      }
+    ]
+  },
+  "tiktok": {
+    "low": [
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis garde la lumière douce et les phrases très courtes.",
+        "tags": [
+          "score-low",
+          "mode-tiktok",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis ne rajoute pas dix écrans à une vibe déjà très liquide.",
+        "tags": [
+          "score-low",
+          "mode-tiktok",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis stabilise l'humain avant de refaire une face cam.",
+        "tags": [
+          "score-low",
+          "mode-tiktok",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis garde la lumière douce et les phrases très courtes.",
+        "tags": [
+          "combo-grounded",
+          "mode-tiktok",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis ne rajoute pas dix écrans à une vibe déjà très liquide.",
+        "tags": [
+          "combo-grounded",
+          "mode-tiktok",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis stabilise l'humain avant de refaire une face cam.",
+        "tags": [
+          "combo-grounded",
+          "mode-tiktok",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis garde la lumière douce et les phrases très courtes.",
+        "tags": [
+          "smile-medium",
+          "mode-tiktok",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis ne rajoute pas dix écrans à une vibe déjà très liquide.",
+        "tags": [
+          "smile-medium",
+          "mode-tiktok",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis stabilise l'humain avant de refaire une face cam.",
+        "tags": [
+          "smile-medium",
+          "mode-tiktok",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis garde la lumière douce et les phrases très courtes.",
+        "tags": [
+          "gaze-sharp",
+          "mode-tiktok",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis ne rajoute pas dix écrans à une vibe déjà très liquide.",
+        "tags": [
+          "gaze-sharp",
+          "mode-tiktok",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis stabilise l'humain avant de refaire une face cam.",
+        "tags": [
+          "gaze-sharp",
+          "mode-tiktok",
+          "bucket-low"
+        ]
+      }
+    ],
+    "medium": [
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis garde la lumière douce et les phrases très courtes.",
+        "tags": [
+          "score-medium",
+          "mode-tiktok",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis ne rajoute pas dix écrans à une vibe déjà très liquide.",
+        "tags": [
+          "score-medium",
+          "mode-tiktok",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis stabilise l'humain avant de refaire une face cam.",
+        "tags": [
+          "score-medium",
+          "mode-tiktok",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis garde la lumière douce et les phrases très courtes.",
+        "tags": [
+          "gaze-distant",
+          "mode-tiktok",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis ne rajoute pas dix écrans à une vibe déjà très liquide.",
+        "tags": [
+          "gaze-distant",
+          "mode-tiktok",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis stabilise l'humain avant de refaire une face cam.",
+        "tags": [
+          "gaze-distant",
+          "mode-tiktok",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis garde la lumière douce et les phrases très courtes.",
+        "tags": [
+          "relax-relaxed",
+          "mode-tiktok",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis ne rajoute pas dix écrans à une vibe déjà très liquide.",
+        "tags": [
+          "relax-relaxed",
+          "mode-tiktok",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis stabilise l'humain avant de refaire une face cam.",
+        "tags": [
+          "relax-relaxed",
+          "mode-tiktok",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis garde la lumière douce et les phrases très courtes.",
+        "tags": [
+          "expression-dreamy",
+          "mode-tiktok",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis ne rajoute pas dix écrans à une vibe déjà très liquide.",
+        "tags": [
+          "expression-dreamy",
+          "mode-tiktok",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis stabilise l'humain avant de refaire une face cam.",
+        "tags": [
+          "expression-dreamy",
+          "mode-tiktok",
+          "bucket-medium"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis garde la lumière douce et les phrases très courtes.",
+        "tags": [
+          "score-high",
+          "mode-tiktok",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis ne rajoute pas dix écrans à une vibe déjà très liquide.",
+        "tags": [
+          "score-high",
+          "mode-tiktok",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis stabilise l'humain avant de refaire une face cam.",
+        "tags": [
+          "score-high",
+          "mode-tiktok",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis garde la lumière douce et les phrases très courtes.",
+        "tags": [
+          "gaze-floating",
+          "mode-tiktok",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis ne rajoute pas dix écrans à une vibe déjà très liquide.",
+        "tags": [
+          "gaze-floating",
+          "mode-tiktok",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis stabilise l'humain avant de refaire une face cam.",
+        "tags": [
+          "gaze-floating",
+          "mode-tiktok",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis garde la lumière douce et les phrases très courtes.",
+        "tags": [
+          "relax-melted",
+          "mode-tiktok",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis ne rajoute pas dix écrans à une vibe déjà très liquide.",
+        "tags": [
+          "relax-melted",
+          "mode-tiktok",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis stabilise l'humain avant de refaire une face cam.",
+        "tags": [
+          "relax-melted",
+          "mode-tiktok",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis garde la lumière douce et les phrases très courtes.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-tiktok",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis ne rajoute pas dix écrans à une vibe déjà très liquide.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-tiktok",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis stabilise l'humain avant de refaire une face cam.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-tiktok",
+          "bucket-high"
+        ]
+      }
+    ],
+    "extreme": [
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis garde la lumière douce et les phrases très courtes.",
+        "tags": [
+          "score-extreme",
+          "mode-tiktok",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis ne rajoute pas dix écrans à une vibe déjà très liquide.",
+        "tags": [
+          "score-extreme",
+          "mode-tiktok",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis stabilise l'humain avant de refaire une face cam.",
+        "tags": [
+          "score-extreme",
+          "mode-tiktok",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis garde la lumière douce et les phrases très courtes.",
+        "tags": [
+          "relax-melted",
+          "mode-tiktok",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis ne rajoute pas dix écrans à une vibe déjà très liquide.",
+        "tags": [
+          "relax-melted",
+          "mode-tiktok",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis stabilise l'humain avant de refaire une face cam.",
+        "tags": [
+          "relax-melted",
+          "mode-tiktok",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis garde la lumière douce et les phrases très courtes.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-tiktok",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis ne rajoute pas dix écrans à une vibe déjà très liquide.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-tiktok",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis stabilise l'humain avant de refaire une face cam.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-tiktok",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis garde la lumière douce et les phrases très courtes.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-tiktok",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis ne rajoute pas dix écrans à une vibe déjà très liquide.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-tiktok",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis stabilise l'humain avant de refaire une face cam.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-tiktok",
+          "bucket-extreme"
+        ]
+      }
+    ]
+  },
+  "apres-soiree": {
+    "low": [
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis évite le rappel bonus, vise la récupération digne.",
+        "tags": [
+          "score-low",
+          "mode-apres-soiree",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis laisse la scène se refermer avant de relancer quoi que ce soit.",
+        "tags": [
+          "score-low",
+          "mode-apres-soiree",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis reste dans le minimum viable jusqu'au retour du cerveau.",
+        "tags": [
+          "score-low",
+          "mode-apres-soiree",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis évite le rappel bonus, vise la récupération digne.",
+        "tags": [
+          "combo-grounded",
+          "mode-apres-soiree",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis laisse la scène se refermer avant de relancer quoi que ce soit.",
+        "tags": [
+          "combo-grounded",
+          "mode-apres-soiree",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis reste dans le minimum viable jusqu'au retour du cerveau.",
+        "tags": [
+          "combo-grounded",
+          "mode-apres-soiree",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis évite le rappel bonus, vise la récupération digne.",
+        "tags": [
+          "smile-medium",
+          "mode-apres-soiree",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis laisse la scène se refermer avant de relancer quoi que ce soit.",
+        "tags": [
+          "smile-medium",
+          "mode-apres-soiree",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis reste dans le minimum viable jusqu'au retour du cerveau.",
+        "tags": [
+          "smile-medium",
+          "mode-apres-soiree",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis évite le rappel bonus, vise la récupération digne.",
+        "tags": [
+          "gaze-sharp",
+          "mode-apres-soiree",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis laisse la scène se refermer avant de relancer quoi que ce soit.",
+        "tags": [
+          "gaze-sharp",
+          "mode-apres-soiree",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis reste dans le minimum viable jusqu'au retour du cerveau.",
+        "tags": [
+          "gaze-sharp",
+          "mode-apres-soiree",
+          "bucket-low"
+        ]
+      }
+    ],
+    "medium": [
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis évite le rappel bonus, vise la récupération digne.",
+        "tags": [
+          "score-medium",
+          "mode-apres-soiree",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis laisse la scène se refermer avant de relancer quoi que ce soit.",
+        "tags": [
+          "score-medium",
+          "mode-apres-soiree",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis reste dans le minimum viable jusqu'au retour du cerveau.",
+        "tags": [
+          "score-medium",
+          "mode-apres-soiree",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis évite le rappel bonus, vise la récupération digne.",
+        "tags": [
+          "gaze-distant",
+          "mode-apres-soiree",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis laisse la scène se refermer avant de relancer quoi que ce soit.",
+        "tags": [
+          "gaze-distant",
+          "mode-apres-soiree",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis reste dans le minimum viable jusqu'au retour du cerveau.",
+        "tags": [
+          "gaze-distant",
+          "mode-apres-soiree",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis évite le rappel bonus, vise la récupération digne.",
+        "tags": [
+          "relax-relaxed",
+          "mode-apres-soiree",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis laisse la scène se refermer avant de relancer quoi que ce soit.",
+        "tags": [
+          "relax-relaxed",
+          "mode-apres-soiree",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis reste dans le minimum viable jusqu'au retour du cerveau.",
+        "tags": [
+          "relax-relaxed",
+          "mode-apres-soiree",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis évite le rappel bonus, vise la récupération digne.",
+        "tags": [
+          "expression-dreamy",
+          "mode-apres-soiree",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis laisse la scène se refermer avant de relancer quoi que ce soit.",
+        "tags": [
+          "expression-dreamy",
+          "mode-apres-soiree",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis reste dans le minimum viable jusqu'au retour du cerveau.",
+        "tags": [
+          "expression-dreamy",
+          "mode-apres-soiree",
+          "bucket-medium"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis évite le rappel bonus, vise la récupération digne.",
+        "tags": [
+          "score-high",
+          "mode-apres-soiree",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis laisse la scène se refermer avant de relancer quoi que ce soit.",
+        "tags": [
+          "score-high",
+          "mode-apres-soiree",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis reste dans le minimum viable jusqu'au retour du cerveau.",
+        "tags": [
+          "score-high",
+          "mode-apres-soiree",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis évite le rappel bonus, vise la récupération digne.",
+        "tags": [
+          "gaze-floating",
+          "mode-apres-soiree",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis laisse la scène se refermer avant de relancer quoi que ce soit.",
+        "tags": [
+          "gaze-floating",
+          "mode-apres-soiree",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis reste dans le minimum viable jusqu'au retour du cerveau.",
+        "tags": [
+          "gaze-floating",
+          "mode-apres-soiree",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis évite le rappel bonus, vise la récupération digne.",
+        "tags": [
+          "relax-melted",
+          "mode-apres-soiree",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis laisse la scène se refermer avant de relancer quoi que ce soit.",
+        "tags": [
+          "relax-melted",
+          "mode-apres-soiree",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis reste dans le minimum viable jusqu'au retour du cerveau.",
+        "tags": [
+          "relax-melted",
+          "mode-apres-soiree",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis évite le rappel bonus, vise la récupération digne.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-apres-soiree",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis laisse la scène se refermer avant de relancer quoi que ce soit.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-apres-soiree",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis reste dans le minimum viable jusqu'au retour du cerveau.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-apres-soiree",
+          "bucket-high"
+        ]
+      }
+    ],
+    "extreme": [
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis évite le rappel bonus, vise la récupération digne.",
+        "tags": [
+          "score-extreme",
+          "mode-apres-soiree",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis laisse la scène se refermer avant de relancer quoi que ce soit.",
+        "tags": [
+          "score-extreme",
+          "mode-apres-soiree",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis reste dans le minimum viable jusqu'au retour du cerveau.",
+        "tags": [
+          "score-extreme",
+          "mode-apres-soiree",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis évite le rappel bonus, vise la récupération digne.",
+        "tags": [
+          "relax-melted",
+          "mode-apres-soiree",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis laisse la scène se refermer avant de relancer quoi que ce soit.",
+        "tags": [
+          "relax-melted",
+          "mode-apres-soiree",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis reste dans le minimum viable jusqu'au retour du cerveau.",
+        "tags": [
+          "relax-melted",
+          "mode-apres-soiree",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis évite le rappel bonus, vise la récupération digne.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-apres-soiree",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis laisse la scène se refermer avant de relancer quoi que ce soit.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-apres-soiree",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis reste dans le minimum viable jusqu'au retour du cerveau.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-apres-soiree",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis évite le rappel bonus, vise la récupération digne.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-apres-soiree",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis laisse la scène se refermer avant de relancer quoi que ce soit.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-apres-soiree",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis reste dans le minimum viable jusqu'au retour du cerveau.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-apres-soiree",
+          "bucket-extreme"
+        ]
+      }
+    ]
+  },
+  "avant-cafe": {
+    "low": [
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis eau, lenteur, lumière douce, puis seulement civilisation.",
+        "tags": [
+          "score-low",
+          "mode-avant-cafe",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis réduis le bruit autour de toi au strict minimum.",
+        "tags": [
+          "score-low",
+          "mode-avant-cafe",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde ton calme, un verre d'eau et le minimum syndical, puis aucune décision n'est urgente avant le premier redémarrage humain.",
+        "tags": [
+          "score-low",
+          "mode-avant-cafe",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis eau, lenteur, lumière douce, puis seulement civilisation.",
+        "tags": [
+          "combo-grounded",
+          "mode-avant-cafe",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis réduis le bruit autour de toi au strict minimum.",
+        "tags": [
+          "combo-grounded",
+          "mode-avant-cafe",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est profite du fait d'être encore très terrestre pour rester simple, puis aucune décision n'est urgente avant le premier redémarrage humain.",
+        "tags": [
+          "combo-grounded",
+          "mode-avant-cafe",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis eau, lenteur, lumière douce, puis seulement civilisation.",
+        "tags": [
+          "smile-medium",
+          "mode-avant-cafe",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis réduis le bruit autour de toi au strict minimum.",
+        "tags": [
+          "smile-medium",
+          "mode-avant-cafe",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est ne surjoue rien, la vibe marche déjà toute seule, puis aucune décision n'est urgente avant le premier redémarrage humain.",
+        "tags": [
+          "smile-medium",
+          "mode-avant-cafe",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis eau, lenteur, lumière douce, puis seulement civilisation.",
+        "tags": [
+          "gaze-sharp",
+          "mode-avant-cafe",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis réduis le bruit autour de toi au strict minimum.",
+        "tags": [
+          "gaze-sharp",
+          "mode-avant-cafe",
+          "bucket-low"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est préserve ta clarté au lieu de courir après un supplément de chaos, puis aucune décision n'est urgente avant le premier redémarrage humain.",
+        "tags": [
+          "gaze-sharp",
+          "mode-avant-cafe",
+          "bucket-low"
+        ]
+      }
+    ],
+    "medium": [
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis eau, lenteur, lumière douce, puis seulement civilisation.",
+        "tags": [
+          "score-medium",
+          "mode-avant-cafe",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis réduis le bruit autour de toi au strict minimum.",
+        "tags": [
+          "score-medium",
+          "mode-avant-cafe",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est vise le confort, l'eau et des phrases plus courtes que d'habitude, puis aucune décision n'est urgente avant le premier redémarrage humain.",
+        "tags": [
+          "score-medium",
+          "mode-avant-cafe",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis eau, lenteur, lumière douce, puis seulement civilisation.",
+        "tags": [
+          "gaze-distant",
+          "mode-avant-cafe",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis réduis le bruit autour de toi au strict minimum.",
+        "tags": [
+          "gaze-distant",
+          "mode-avant-cafe",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans une journée basse intensité et évite le théâtre, puis aucune décision n'est urgente avant le premier redémarrage humain.",
+        "tags": [
+          "gaze-distant",
+          "mode-avant-cafe",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis eau, lenteur, lumière douce, puis seulement civilisation.",
+        "tags": [
+          "relax-relaxed",
+          "mode-avant-cafe",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis réduis le bruit autour de toi au strict minimum.",
+        "tags": [
+          "relax-relaxed",
+          "mode-avant-cafe",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ta vibe avec du calme, pas avec une nouvelle aventure, puis aucune décision n'est urgente avant le premier redémarrage humain.",
+        "tags": [
+          "relax-relaxed",
+          "mode-avant-cafe",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis eau, lenteur, lumière douce, puis seulement civilisation.",
+        "tags": [
+          "expression-dreamy",
+          "mode-avant-cafe",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis réduis le bruit autour de toi au strict minimum.",
+        "tags": [
+          "expression-dreamy",
+          "mode-avant-cafe",
+          "bucket-medium"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde les décisions simples et les gestes encore plus simples, puis aucune décision n'est urgente avant le premier redémarrage humain.",
+        "tags": [
+          "expression-dreamy",
+          "mode-avant-cafe",
+          "bucket-medium"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis eau, lenteur, lumière douce, puis seulement civilisation.",
+        "tags": [
+          "score-high",
+          "mode-avant-cafe",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis réduis le bruit autour de toi au strict minimum.",
+        "tags": [
+          "score-high",
+          "mode-avant-cafe",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est garde de l'eau à portée et évite toute situation qui demande de la précision, puis aucune décision n'est urgente avant le premier redémarrage humain.",
+        "tags": [
+          "score-high",
+          "mode-avant-cafe",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis eau, lenteur, lumière douce, puis seulement civilisation.",
+        "tags": [
+          "gaze-floating",
+          "mode-avant-cafe",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis réduis le bruit autour de toi au strict minimum.",
+        "tags": [
+          "gaze-floating",
+          "mode-avant-cafe",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est reste dans le simple, le stable et le canapé-compatible, puis aucune décision n'est urgente avant le premier redémarrage humain.",
+        "tags": [
+          "gaze-floating",
+          "mode-avant-cafe",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis eau, lenteur, lumière douce, puis seulement civilisation.",
+        "tags": [
+          "relax-melted",
+          "mode-avant-cafe",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis réduis le bruit autour de toi au strict minimum.",
+        "tags": [
+          "relax-melted",
+          "mode-avant-cafe",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis le monde à trois priorités maximum et une seule à la fois, puis aucune décision n'est urgente avant le premier redémarrage humain.",
+        "tags": [
+          "relax-melted",
+          "mode-avant-cafe",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis eau, lenteur, lumière douce, puis seulement civilisation.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-avant-cafe",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis réduis le bruit autour de toi au strict minimum.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-avant-cafe",
+          "bucket-high"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la meilleure stratégie reste le confort discipliné, puis aucune décision n'est urgente avant le premier redémarrage humain.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-avant-cafe",
+          "bucket-high"
+        ]
+      }
+    ],
+    "extreme": [
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis eau, lenteur, lumière douce, puis seulement civilisation.",
+        "tags": [
+          "score-extreme",
+          "mode-avant-cafe",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis réduis le bruit autour de toi au strict minimum.",
+        "tags": [
+          "score-extreme",
+          "mode-avant-cafe",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est eau, canapé, lumière douce et surtout aucune décision avec un verbe compliqué, puis aucune décision n'est urgente avant le premier redémarrage humain.",
+        "tags": [
+          "score-extreme",
+          "mode-avant-cafe",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis eau, lenteur, lumière douce, puis seulement civilisation.",
+        "tags": [
+          "relax-melted",
+          "mode-avant-cafe",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis réduis le bruit autour de toi au strict minimum.",
+        "tags": [
+          "relax-melted",
+          "mode-avant-cafe",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est réduis la journée à l'essentiel absolu, puis encore un peu en dessous, puis aucune décision n'est urgente avant le premier redémarrage humain.",
+        "tags": [
+          "relax-melted",
+          "mode-avant-cafe",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis eau, lenteur, lumière douce, puis seulement civilisation.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-avant-cafe",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis réduis le bruit autour de toi au strict minimum.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-avant-cafe",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est la seule vraie ambition ici, c'est la stabilité moelleuse, puis aucune décision n'est urgente avant le premier redémarrage humain.",
+        "tags": [
+          "combo-heavy-lids",
+          "mode-avant-cafe",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis eau, lenteur, lumière douce, puis seulement civilisation.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-avant-cafe",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis réduis le bruit autour de toi au strict minimum.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-avant-cafe",
+          "bucket-extreme"
+        ]
+      },
+      {
+        "text": "Le meilleur move, c'est protège ton calme comme un trésor de fin de niveau, puis aucune décision n'est urgente avant le premier redémarrage humain.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-avant-cafe",
+          "bucket-extreme"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "normal": {
+    "label": "Renaud de comptoir",
+    "icon": "🍷",
+    "description": "Poésie de bar, ironie tendre et regard qui chante déjà la suite.",
+    "gradient": [
+      "from-rose-500",
+      "via-orange-400",
+      "to-amber-300"
+    ]
+  },
+  "gentil": {
+    "label": "Bob Marley",
+    "icon": "🌿",
+    "description": "Chill solaire, sourire lent et nuage très diplomatique.",
+    "gradient": [
+      "from-emerald-500",
+      "via-lime-400",
+      "to-yellow-200"
+    ]
+  },
+  "brutal": {
+    "label": "Mick Jagger",
+    "icon": "🕺",
+    "description": "Rock sale, after en cuir et charisme légèrement rincé.",
+    "gradient": [
+      "from-fuchsia-600",
+      "via-rose-500",
+      "to-orange-300"
+    ]
+  },
+  "bureau": {
+    "label": "Philosophe du canapé",
+    "icon": "🛋️",
+    "description": "Grand confort, pensée lente et dissertation allongée.",
+    "gradient": [
+      "from-slate-600",
+      "via-indigo-400",
+      "to-cyan-300"
+    ]
+  },
+  "etudiant": {
+    "label": "Festival survivor",
+    "icon": "🎪",
+    "description": "Bracelet imaginaire, lever de soleil douteux et basses dans l'œil gauche.",
+    "gradient": [
+      "from-violet-600",
+      "via-fuchsia-500",
+      "to-cyan-300"
+    ]
+  },
+  "parent": {
+    "label": "Dub lunaire",
+    "icon": "🌙",
+    "description": "Basses lentes, nuit bleue et orbite à tempo réduit.",
+    "gradient": [
+      "from-indigo-700",
+      "via-violet-500",
+      "to-sky-300"
+    ]
+  },
+  "couple": {
+    "label": "Astral discret",
+    "icon": "🪐",
+    "description": "Petit voyage intérieur, plafond intéressant et absence polie.",
+    "gradient": [
+      "from-sky-500",
+      "via-indigo-400",
+      "to-purple-300"
+    ]
+  },
+  "tiktok": {
+    "label": "Regard aquarium",
+    "icon": "🐠",
+    "description": "Néon liquide, bulle silencieuse et face cam très bocal cosmique.",
+    "gradient": [
+      "from-cyan-500",
+      "via-blue-400",
+      "to-fuchsia-400"
+    ]
+  },
+  "apres-soiree": {
+    "label": "Rocker d'after",
+    "icon": "🎸",
+    "description": "Fin de scène, néons fatigués et lendemain amplifié.",
+    "gradient": [
+      "from-amber-600",
+      "via-rose-500",
+      "to-purple-400"
+    ]
+  },
+  "avant-cafe": {
+    "label": "Canapé premium",
+    "icon": "☁️",
+    "description": "Velours mental, coussin imaginaire et luxe de la lenteur.",
+    "gradient": [
+      "from-amber-400",
+      "via-orange-300",
+      "to-rose-200"
+    ]
+  }
+}

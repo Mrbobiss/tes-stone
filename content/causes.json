@@ -1,0 +1,4692 @@
+{
+  "normal": {
+    "low": [
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus une ambiance de bar restée dans la rétine.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-normal",
+          "bucket-low",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus un personnage qui a dormi dans un refrain.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-normal",
+          "bucket-low",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus une poésie de comptoir trop bien installée.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-normal",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus une ambiance de bar restée dans la rétine.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-normal",
+          "bucket-low",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus un personnage qui a dormi dans un refrain.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-normal",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus une poésie de comptoir trop bien installée.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-normal",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus une ambiance de bar restée dans la rétine.",
+        "tags": [
+          "relax-neutral",
+          "mode-normal",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus un personnage qui a dormi dans un refrain.",
+        "tags": [
+          "relax-neutral",
+          "mode-normal",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus une poésie de comptoir trop bien installée.",
+        "tags": [
+          "relax-neutral",
+          "mode-normal",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus une ambiance de bar restée dans la rétine.",
+        "tags": [
+          "expression-amused",
+          "mode-normal",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus un personnage qui a dormi dans un refrain.",
+        "tags": [
+          "expression-amused",
+          "mode-normal",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus une poésie de comptoir trop bien installée.",
+        "tags": [
+          "expression-amused",
+          "mode-normal",
+          "bucket-low",
+          "decile-9"
+        ]
+      }
+    ],
+    "medium": [
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus une ambiance de bar restée dans la rétine.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-normal",
+          "bucket-medium",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus un personnage qui a dormi dans un refrain.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-normal",
+          "bucket-medium",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus une poésie de comptoir trop bien installée.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-normal",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus une ambiance de bar restée dans la rétine.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-normal",
+          "bucket-medium",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus un personnage qui a dormi dans un refrain.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-normal",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus une poésie de comptoir trop bien installée.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-normal",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus une ambiance de bar restée dans la rétine.",
+        "tags": [
+          "expression-dreamy",
+          "mode-normal",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus un personnage qui a dormi dans un refrain.",
+        "tags": [
+          "expression-dreamy",
+          "mode-normal",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus une poésie de comptoir trop bien installée.",
+        "tags": [
+          "expression-dreamy",
+          "mode-normal",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus une ambiance de bar restée dans la rétine.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-normal",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus un personnage qui a dormi dans un refrain.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-normal",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus une poésie de comptoir trop bien installée.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-normal",
+          "bucket-medium",
+          "decile-9"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus une ambiance de bar restée dans la rétine.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-normal",
+          "bucket-high",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus un personnage qui a dormi dans un refrain.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-normal",
+          "bucket-high",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus une poésie de comptoir trop bien installée.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-normal",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus une ambiance de bar restée dans la rétine.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-normal",
+          "bucket-high",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus un personnage qui a dormi dans un refrain.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-normal",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus une poésie de comptoir trop bien installée.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-normal",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus une ambiance de bar restée dans la rétine.",
+        "tags": [
+          "expression-sleepy",
+          "mode-normal",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus un personnage qui a dormi dans un refrain.",
+        "tags": [
+          "expression-sleepy",
+          "mode-normal",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus une poésie de comptoir trop bien installée.",
+        "tags": [
+          "expression-sleepy",
+          "mode-normal",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus une ambiance de bar restée dans la rétine.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-normal",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus un personnage qui a dormi dans un refrain.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-normal",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus une poésie de comptoir trop bien installée.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-normal",
+          "bucket-high",
+          "decile-9"
+        ]
+      }
+    ],
+    "extreme": [
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus une ambiance de bar restée dans la rétine.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-normal",
+          "bucket-extreme",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus un personnage qui a dormi dans un refrain.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-normal",
+          "bucket-extreme",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus une poésie de comptoir trop bien installée.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-normal",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus une ambiance de bar restée dans la rétine.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-normal",
+          "bucket-extreme",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus un personnage qui a dormi dans un refrain.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-normal",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus une poésie de comptoir trop bien installée.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-normal",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus une ambiance de bar restée dans la rétine.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-normal",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus un personnage qui a dormi dans un refrain.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-normal",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus une poésie de comptoir trop bien installée.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-normal",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus une ambiance de bar restée dans la rétine.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-normal",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus un personnage qui a dormi dans un refrain.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-normal",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus une poésie de comptoir trop bien installée.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-normal",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      }
+    ]
+  },
+  "gentil": {
+    "low": [
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus une sérénité beaucoup trop confortable.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-gentil",
+          "bucket-low",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus une vibe reggae qui ralentit tout.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-gentil",
+          "bucket-low",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus un soleil intérieur visiblement très paresseux.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-gentil",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus une sérénité beaucoup trop confortable.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-gentil",
+          "bucket-low",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus une vibe reggae qui ralentit tout.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-gentil",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus un soleil intérieur visiblement très paresseux.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-gentil",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus une sérénité beaucoup trop confortable.",
+        "tags": [
+          "relax-neutral",
+          "mode-gentil",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus une vibe reggae qui ralentit tout.",
+        "tags": [
+          "relax-neutral",
+          "mode-gentil",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus un soleil intérieur visiblement très paresseux.",
+        "tags": [
+          "relax-neutral",
+          "mode-gentil",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus une sérénité beaucoup trop confortable.",
+        "tags": [
+          "expression-amused",
+          "mode-gentil",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus une vibe reggae qui ralentit tout.",
+        "tags": [
+          "expression-amused",
+          "mode-gentil",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus un soleil intérieur visiblement très paresseux.",
+        "tags": [
+          "expression-amused",
+          "mode-gentil",
+          "bucket-low",
+          "decile-9"
+        ]
+      }
+    ],
+    "medium": [
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus une sérénité beaucoup trop confortable.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-gentil",
+          "bucket-medium",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus une vibe reggae qui ralentit tout.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-gentil",
+          "bucket-medium",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus un soleil intérieur visiblement très paresseux.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-gentil",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus une sérénité beaucoup trop confortable.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-gentil",
+          "bucket-medium",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus une vibe reggae qui ralentit tout.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-gentil",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus un soleil intérieur visiblement très paresseux.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-gentil",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus une sérénité beaucoup trop confortable.",
+        "tags": [
+          "expression-dreamy",
+          "mode-gentil",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus une vibe reggae qui ralentit tout.",
+        "tags": [
+          "expression-dreamy",
+          "mode-gentil",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus un soleil intérieur visiblement très paresseux.",
+        "tags": [
+          "expression-dreamy",
+          "mode-gentil",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus une sérénité beaucoup trop confortable.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-gentil",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus une vibe reggae qui ralentit tout.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-gentil",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus un soleil intérieur visiblement très paresseux.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-gentil",
+          "bucket-medium",
+          "decile-9"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus une sérénité beaucoup trop confortable.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-gentil",
+          "bucket-high",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus une vibe reggae qui ralentit tout.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-gentil",
+          "bucket-high",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus un soleil intérieur visiblement très paresseux.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-gentil",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus une sérénité beaucoup trop confortable.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-gentil",
+          "bucket-high",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus une vibe reggae qui ralentit tout.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-gentil",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus un soleil intérieur visiblement très paresseux.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-gentil",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus une sérénité beaucoup trop confortable.",
+        "tags": [
+          "expression-sleepy",
+          "mode-gentil",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus une vibe reggae qui ralentit tout.",
+        "tags": [
+          "expression-sleepy",
+          "mode-gentil",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus un soleil intérieur visiblement très paresseux.",
+        "tags": [
+          "expression-sleepy",
+          "mode-gentil",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus une sérénité beaucoup trop confortable.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-gentil",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus une vibe reggae qui ralentit tout.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-gentil",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus un soleil intérieur visiblement très paresseux.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-gentil",
+          "bucket-high",
+          "decile-9"
+        ]
+      }
+    ],
+    "extreme": [
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus une sérénité beaucoup trop confortable.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-gentil",
+          "bucket-extreme",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus une vibe reggae qui ralentit tout.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-gentil",
+          "bucket-extreme",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus un soleil intérieur visiblement très paresseux.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-gentil",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus une sérénité beaucoup trop confortable.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-gentil",
+          "bucket-extreme",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus une vibe reggae qui ralentit tout.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-gentil",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus un soleil intérieur visiblement très paresseux.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-gentil",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus une sérénité beaucoup trop confortable.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-gentil",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus une vibe reggae qui ralentit tout.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-gentil",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus un soleil intérieur visiblement très paresseux.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-gentil",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus une sérénité beaucoup trop confortable.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-gentil",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus une vibe reggae qui ralentit tout.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-gentil",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus un soleil intérieur visiblement très paresseux.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-gentil",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      }
+    ]
+  },
+  "brutal": {
+    "low": [
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus une énergie de scène restée coincée dans le regard.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-brutal",
+          "bucket-low",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus un reste d'after beaucoup trop photogénique.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-brutal",
+          "bucket-low",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus un personnage qui a clairement raté sa sortie de scène.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-brutal",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus une énergie de scène restée coincée dans le regard.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-brutal",
+          "bucket-low",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus un reste d'after beaucoup trop photogénique.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-brutal",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus un personnage qui a clairement raté sa sortie de scène.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-brutal",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus une énergie de scène restée coincée dans le regard.",
+        "tags": [
+          "relax-neutral",
+          "mode-brutal",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus un reste d'after beaucoup trop photogénique.",
+        "tags": [
+          "relax-neutral",
+          "mode-brutal",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus un personnage qui a clairement raté sa sortie de scène.",
+        "tags": [
+          "relax-neutral",
+          "mode-brutal",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus une énergie de scène restée coincée dans le regard.",
+        "tags": [
+          "expression-amused",
+          "mode-brutal",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus un reste d'after beaucoup trop photogénique.",
+        "tags": [
+          "expression-amused",
+          "mode-brutal",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus un personnage qui a clairement raté sa sortie de scène.",
+        "tags": [
+          "expression-amused",
+          "mode-brutal",
+          "bucket-low",
+          "decile-9"
+        ]
+      }
+    ],
+    "medium": [
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus une énergie de scène restée coincée dans le regard.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-brutal",
+          "bucket-medium",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus un reste d'after beaucoup trop photogénique.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-brutal",
+          "bucket-medium",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus un personnage qui a clairement raté sa sortie de scène.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-brutal",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus une énergie de scène restée coincée dans le regard.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-brutal",
+          "bucket-medium",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus un reste d'after beaucoup trop photogénique.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-brutal",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus un personnage qui a clairement raté sa sortie de scène.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-brutal",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus une énergie de scène restée coincée dans le regard.",
+        "tags": [
+          "expression-dreamy",
+          "mode-brutal",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus un reste d'after beaucoup trop photogénique.",
+        "tags": [
+          "expression-dreamy",
+          "mode-brutal",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus un personnage qui a clairement raté sa sortie de scène.",
+        "tags": [
+          "expression-dreamy",
+          "mode-brutal",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus une énergie de scène restée coincée dans le regard.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-brutal",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus un reste d'after beaucoup trop photogénique.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-brutal",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus un personnage qui a clairement raté sa sortie de scène.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-brutal",
+          "bucket-medium",
+          "decile-9"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus une énergie de scène restée coincée dans le regard.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-brutal",
+          "bucket-high",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus un reste d'after beaucoup trop photogénique.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-brutal",
+          "bucket-high",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus un personnage qui a clairement raté sa sortie de scène.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-brutal",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus une énergie de scène restée coincée dans le regard.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-brutal",
+          "bucket-high",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus un reste d'after beaucoup trop photogénique.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-brutal",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus un personnage qui a clairement raté sa sortie de scène.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-brutal",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus une énergie de scène restée coincée dans le regard.",
+        "tags": [
+          "expression-sleepy",
+          "mode-brutal",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus un reste d'after beaucoup trop photogénique.",
+        "tags": [
+          "expression-sleepy",
+          "mode-brutal",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus un personnage qui a clairement raté sa sortie de scène.",
+        "tags": [
+          "expression-sleepy",
+          "mode-brutal",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus une énergie de scène restée coincée dans le regard.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-brutal",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus un reste d'after beaucoup trop photogénique.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-brutal",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus un personnage qui a clairement raté sa sortie de scène.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-brutal",
+          "bucket-high",
+          "decile-9"
+        ]
+      }
+    ],
+    "extreme": [
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus une énergie de scène restée coincée dans le regard.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-brutal",
+          "bucket-extreme",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus un reste d'after beaucoup trop photogénique.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-brutal",
+          "bucket-extreme",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus un personnage qui a clairement raté sa sortie de scène.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-brutal",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus une énergie de scène restée coincée dans le regard.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-brutal",
+          "bucket-extreme",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus un reste d'after beaucoup trop photogénique.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-brutal",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus un personnage qui a clairement raté sa sortie de scène.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-brutal",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus une énergie de scène restée coincée dans le regard.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-brutal",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus un reste d'after beaucoup trop photogénique.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-brutal",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus un personnage qui a clairement raté sa sortie de scène.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-brutal",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus une énergie de scène restée coincée dans le regard.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-brutal",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus un reste d'after beaucoup trop photogénique.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-brutal",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus un personnage qui a clairement raté sa sortie de scène.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-brutal",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      }
+    ]
+  },
+  "bureau": {
+    "low": [
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus une philosophie trop moelleuse pour aller vite.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-bureau",
+          "bucket-low",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus un confort intérieur devenu doctrine.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-bureau",
+          "bucket-low",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus une envie forte de penser à l'horizontale.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-bureau",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus une philosophie trop moelleuse pour aller vite.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-bureau",
+          "bucket-low",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus un confort intérieur devenu doctrine.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-bureau",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus une envie forte de penser à l'horizontale.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-bureau",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus une philosophie trop moelleuse pour aller vite.",
+        "tags": [
+          "relax-neutral",
+          "mode-bureau",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus un confort intérieur devenu doctrine.",
+        "tags": [
+          "relax-neutral",
+          "mode-bureau",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus une envie forte de penser à l'horizontale.",
+        "tags": [
+          "relax-neutral",
+          "mode-bureau",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus une philosophie trop moelleuse pour aller vite.",
+        "tags": [
+          "expression-amused",
+          "mode-bureau",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus un confort intérieur devenu doctrine.",
+        "tags": [
+          "expression-amused",
+          "mode-bureau",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus une envie forte de penser à l'horizontale.",
+        "tags": [
+          "expression-amused",
+          "mode-bureau",
+          "bucket-low",
+          "decile-9"
+        ]
+      }
+    ],
+    "medium": [
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus une philosophie trop moelleuse pour aller vite.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-bureau",
+          "bucket-medium",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus un confort intérieur devenu doctrine.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-bureau",
+          "bucket-medium",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus une envie forte de penser à l'horizontale.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-bureau",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus une philosophie trop moelleuse pour aller vite.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-bureau",
+          "bucket-medium",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus un confort intérieur devenu doctrine.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-bureau",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus une envie forte de penser à l'horizontale.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-bureau",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus une philosophie trop moelleuse pour aller vite.",
+        "tags": [
+          "expression-dreamy",
+          "mode-bureau",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus un confort intérieur devenu doctrine.",
+        "tags": [
+          "expression-dreamy",
+          "mode-bureau",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus une envie forte de penser à l'horizontale.",
+        "tags": [
+          "expression-dreamy",
+          "mode-bureau",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus une philosophie trop moelleuse pour aller vite.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-bureau",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus un confort intérieur devenu doctrine.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-bureau",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus une envie forte de penser à l'horizontale.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-bureau",
+          "bucket-medium",
+          "decile-9"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus une philosophie trop moelleuse pour aller vite.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-bureau",
+          "bucket-high",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus un confort intérieur devenu doctrine.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-bureau",
+          "bucket-high",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus une envie forte de penser à l'horizontale.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-bureau",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus une philosophie trop moelleuse pour aller vite.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-bureau",
+          "bucket-high",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus un confort intérieur devenu doctrine.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-bureau",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus une envie forte de penser à l'horizontale.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-bureau",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus une philosophie trop moelleuse pour aller vite.",
+        "tags": [
+          "expression-sleepy",
+          "mode-bureau",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus un confort intérieur devenu doctrine.",
+        "tags": [
+          "expression-sleepy",
+          "mode-bureau",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus une envie forte de penser à l'horizontale.",
+        "tags": [
+          "expression-sleepy",
+          "mode-bureau",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus une philosophie trop moelleuse pour aller vite.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-bureau",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus un confort intérieur devenu doctrine.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-bureau",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus une envie forte de penser à l'horizontale.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-bureau",
+          "bucket-high",
+          "decile-9"
+        ]
+      }
+    ],
+    "extreme": [
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus une philosophie trop moelleuse pour aller vite.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-bureau",
+          "bucket-extreme",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus un confort intérieur devenu doctrine.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-bureau",
+          "bucket-extreme",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus une envie forte de penser à l'horizontale.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-bureau",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus une philosophie trop moelleuse pour aller vite.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-bureau",
+          "bucket-extreme",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus un confort intérieur devenu doctrine.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-bureau",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus une envie forte de penser à l'horizontale.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-bureau",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus une philosophie trop moelleuse pour aller vite.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-bureau",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus un confort intérieur devenu doctrine.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-bureau",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus une envie forte de penser à l'horizontale.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-bureau",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus une philosophie trop moelleuse pour aller vite.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-bureau",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus un confort intérieur devenu doctrine.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-bureau",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus une envie forte de penser à l'horizontale.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-bureau",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      }
+    ]
+  },
+  "etudiant": {
+    "low": [
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus un retour de set jamais vraiment terminé.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-etudiant",
+          "bucket-low",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus une nuit qui garde encore le goût du terrain.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-etudiant",
+          "bucket-low",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus des basses qui n'ont pas trouvé la sortie.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-etudiant",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus un retour de set jamais vraiment terminé.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-etudiant",
+          "bucket-low",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus une nuit qui garde encore le goût du terrain.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-etudiant",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus des basses qui n'ont pas trouvé la sortie.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-etudiant",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus un retour de set jamais vraiment terminé.",
+        "tags": [
+          "relax-neutral",
+          "mode-etudiant",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus une nuit qui garde encore le goût du terrain.",
+        "tags": [
+          "relax-neutral",
+          "mode-etudiant",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus des basses qui n'ont pas trouvé la sortie.",
+        "tags": [
+          "relax-neutral",
+          "mode-etudiant",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus un retour de set jamais vraiment terminé.",
+        "tags": [
+          "expression-amused",
+          "mode-etudiant",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus une nuit qui garde encore le goût du terrain.",
+        "tags": [
+          "expression-amused",
+          "mode-etudiant",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus des basses qui n'ont pas trouvé la sortie.",
+        "tags": [
+          "expression-amused",
+          "mode-etudiant",
+          "bucket-low",
+          "decile-9"
+        ]
+      }
+    ],
+    "medium": [
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus un retour de set jamais vraiment terminé.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-etudiant",
+          "bucket-medium",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus une nuit qui garde encore le goût du terrain.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-etudiant",
+          "bucket-medium",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus des basses qui n'ont pas trouvé la sortie.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-etudiant",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus un retour de set jamais vraiment terminé.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-etudiant",
+          "bucket-medium",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus une nuit qui garde encore le goût du terrain.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-etudiant",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus des basses qui n'ont pas trouvé la sortie.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-etudiant",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus un retour de set jamais vraiment terminé.",
+        "tags": [
+          "expression-dreamy",
+          "mode-etudiant",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus une nuit qui garde encore le goût du terrain.",
+        "tags": [
+          "expression-dreamy",
+          "mode-etudiant",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus des basses qui n'ont pas trouvé la sortie.",
+        "tags": [
+          "expression-dreamy",
+          "mode-etudiant",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus un retour de set jamais vraiment terminé.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-etudiant",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus une nuit qui garde encore le goût du terrain.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-etudiant",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus des basses qui n'ont pas trouvé la sortie.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-etudiant",
+          "bucket-medium",
+          "decile-9"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus un retour de set jamais vraiment terminé.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-etudiant",
+          "bucket-high",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus une nuit qui garde encore le goût du terrain.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-etudiant",
+          "bucket-high",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus des basses qui n'ont pas trouvé la sortie.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-etudiant",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus un retour de set jamais vraiment terminé.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-etudiant",
+          "bucket-high",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus une nuit qui garde encore le goût du terrain.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-etudiant",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus des basses qui n'ont pas trouvé la sortie.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-etudiant",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus un retour de set jamais vraiment terminé.",
+        "tags": [
+          "expression-sleepy",
+          "mode-etudiant",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus une nuit qui garde encore le goût du terrain.",
+        "tags": [
+          "expression-sleepy",
+          "mode-etudiant",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus des basses qui n'ont pas trouvé la sortie.",
+        "tags": [
+          "expression-sleepy",
+          "mode-etudiant",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus un retour de set jamais vraiment terminé.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-etudiant",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus une nuit qui garde encore le goût du terrain.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-etudiant",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus des basses qui n'ont pas trouvé la sortie.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-etudiant",
+          "bucket-high",
+          "decile-9"
+        ]
+      }
+    ],
+    "extreme": [
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus un retour de set jamais vraiment terminé.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-etudiant",
+          "bucket-extreme",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus une nuit qui garde encore le goût du terrain.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-etudiant",
+          "bucket-extreme",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus des basses qui n'ont pas trouvé la sortie.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-etudiant",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus un retour de set jamais vraiment terminé.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-etudiant",
+          "bucket-extreme",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus une nuit qui garde encore le goût du terrain.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-etudiant",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus des basses qui n'ont pas trouvé la sortie.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-etudiant",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus un retour de set jamais vraiment terminé.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-etudiant",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus une nuit qui garde encore le goût du terrain.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-etudiant",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus des basses qui n'ont pas trouvé la sortie.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-etudiant",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus un retour de set jamais vraiment terminé.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-etudiant",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus une nuit qui garde encore le goût du terrain.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-etudiant",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus des basses qui n'ont pas trouvé la sortie.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-etudiant",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      }
+    ]
+  },
+  "parent": {
+    "low": [
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus un remix intérieur trop bien installé.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-parent",
+          "bucket-low",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus une lenteur de basse qui a pris le pouvoir.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-parent",
+          "bucket-low",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus une réverbération mentale très confortable.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-parent",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus un remix intérieur trop bien installé.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-parent",
+          "bucket-low",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus une lenteur de basse qui a pris le pouvoir.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-parent",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus une réverbération mentale très confortable.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-parent",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus un remix intérieur trop bien installé.",
+        "tags": [
+          "relax-neutral",
+          "mode-parent",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus une lenteur de basse qui a pris le pouvoir.",
+        "tags": [
+          "relax-neutral",
+          "mode-parent",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus une réverbération mentale très confortable.",
+        "tags": [
+          "relax-neutral",
+          "mode-parent",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus un remix intérieur trop bien installé.",
+        "tags": [
+          "expression-amused",
+          "mode-parent",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus une lenteur de basse qui a pris le pouvoir.",
+        "tags": [
+          "expression-amused",
+          "mode-parent",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus une réverbération mentale très confortable.",
+        "tags": [
+          "expression-amused",
+          "mode-parent",
+          "bucket-low",
+          "decile-9"
+        ]
+      }
+    ],
+    "medium": [
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus un remix intérieur trop bien installé.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-parent",
+          "bucket-medium",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus une lenteur de basse qui a pris le pouvoir.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-parent",
+          "bucket-medium",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus une réverbération mentale très confortable.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-parent",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus un remix intérieur trop bien installé.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-parent",
+          "bucket-medium",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus une lenteur de basse qui a pris le pouvoir.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-parent",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus une réverbération mentale très confortable.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-parent",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus un remix intérieur trop bien installé.",
+        "tags": [
+          "expression-dreamy",
+          "mode-parent",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus une lenteur de basse qui a pris le pouvoir.",
+        "tags": [
+          "expression-dreamy",
+          "mode-parent",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus une réverbération mentale très confortable.",
+        "tags": [
+          "expression-dreamy",
+          "mode-parent",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus un remix intérieur trop bien installé.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-parent",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus une lenteur de basse qui a pris le pouvoir.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-parent",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus une réverbération mentale très confortable.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-parent",
+          "bucket-medium",
+          "decile-9"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus un remix intérieur trop bien installé.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-parent",
+          "bucket-high",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus une lenteur de basse qui a pris le pouvoir.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-parent",
+          "bucket-high",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus une réverbération mentale très confortable.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-parent",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus un remix intérieur trop bien installé.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-parent",
+          "bucket-high",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus une lenteur de basse qui a pris le pouvoir.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-parent",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus une réverbération mentale très confortable.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-parent",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus un remix intérieur trop bien installé.",
+        "tags": [
+          "expression-sleepy",
+          "mode-parent",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus une lenteur de basse qui a pris le pouvoir.",
+        "tags": [
+          "expression-sleepy",
+          "mode-parent",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus une réverbération mentale très confortable.",
+        "tags": [
+          "expression-sleepy",
+          "mode-parent",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus un remix intérieur trop bien installé.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-parent",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus une lenteur de basse qui a pris le pouvoir.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-parent",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus une réverbération mentale très confortable.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-parent",
+          "bucket-high",
+          "decile-9"
+        ]
+      }
+    ],
+    "extreme": [
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus un remix intérieur trop bien installé.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-parent",
+          "bucket-extreme",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus une lenteur de basse qui a pris le pouvoir.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-parent",
+          "bucket-extreme",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus une réverbération mentale très confortable.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-parent",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus un remix intérieur trop bien installé.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-parent",
+          "bucket-extreme",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus une lenteur de basse qui a pris le pouvoir.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-parent",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus une réverbération mentale très confortable.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-parent",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus un remix intérieur trop bien installé.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-parent",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus une lenteur de basse qui a pris le pouvoir.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-parent",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus une réverbération mentale très confortable.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-parent",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus un remix intérieur trop bien installé.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-parent",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus une lenteur de basse qui a pris le pouvoir.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-parent",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus une réverbération mentale très confortable.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-parent",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      }
+    ]
+  },
+  "couple": {
+    "low": [
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus une dérive intérieure très bien élevée.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-couple",
+          "bucket-low",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus un voyage lent qui ne fait pas de bruit.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-couple",
+          "bucket-low",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus une absence douce restée dans les yeux.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-couple",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus une dérive intérieure très bien élevée.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-couple",
+          "bucket-low",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus un voyage lent qui ne fait pas de bruit.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-couple",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus une absence douce restée dans les yeux.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-couple",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus une dérive intérieure très bien élevée.",
+        "tags": [
+          "relax-neutral",
+          "mode-couple",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus un voyage lent qui ne fait pas de bruit.",
+        "tags": [
+          "relax-neutral",
+          "mode-couple",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus une absence douce restée dans les yeux.",
+        "tags": [
+          "relax-neutral",
+          "mode-couple",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus une dérive intérieure très bien élevée.",
+        "tags": [
+          "expression-amused",
+          "mode-couple",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus un voyage lent qui ne fait pas de bruit.",
+        "tags": [
+          "expression-amused",
+          "mode-couple",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus une absence douce restée dans les yeux.",
+        "tags": [
+          "expression-amused",
+          "mode-couple",
+          "bucket-low",
+          "decile-9"
+        ]
+      }
+    ],
+    "medium": [
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus une dérive intérieure très bien élevée.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-couple",
+          "bucket-medium",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus un voyage lent qui ne fait pas de bruit.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-couple",
+          "bucket-medium",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus une absence douce restée dans les yeux.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-couple",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus une dérive intérieure très bien élevée.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-couple",
+          "bucket-medium",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus un voyage lent qui ne fait pas de bruit.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-couple",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus une absence douce restée dans les yeux.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-couple",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus une dérive intérieure très bien élevée.",
+        "tags": [
+          "expression-dreamy",
+          "mode-couple",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus un voyage lent qui ne fait pas de bruit.",
+        "tags": [
+          "expression-dreamy",
+          "mode-couple",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus une absence douce restée dans les yeux.",
+        "tags": [
+          "expression-dreamy",
+          "mode-couple",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus une dérive intérieure très bien élevée.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-couple",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus un voyage lent qui ne fait pas de bruit.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-couple",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus une absence douce restée dans les yeux.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-couple",
+          "bucket-medium",
+          "decile-9"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus une dérive intérieure très bien élevée.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-couple",
+          "bucket-high",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus un voyage lent qui ne fait pas de bruit.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-couple",
+          "bucket-high",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus une absence douce restée dans les yeux.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-couple",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus une dérive intérieure très bien élevée.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-couple",
+          "bucket-high",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus un voyage lent qui ne fait pas de bruit.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-couple",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus une absence douce restée dans les yeux.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-couple",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus une dérive intérieure très bien élevée.",
+        "tags": [
+          "expression-sleepy",
+          "mode-couple",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus un voyage lent qui ne fait pas de bruit.",
+        "tags": [
+          "expression-sleepy",
+          "mode-couple",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus une absence douce restée dans les yeux.",
+        "tags": [
+          "expression-sleepy",
+          "mode-couple",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus une dérive intérieure très bien élevée.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-couple",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus un voyage lent qui ne fait pas de bruit.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-couple",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus une absence douce restée dans les yeux.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-couple",
+          "bucket-high",
+          "decile-9"
+        ]
+      }
+    ],
+    "extreme": [
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus une dérive intérieure très bien élevée.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-couple",
+          "bucket-extreme",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus un voyage lent qui ne fait pas de bruit.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-couple",
+          "bucket-extreme",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus une absence douce restée dans les yeux.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-couple",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus une dérive intérieure très bien élevée.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-couple",
+          "bucket-extreme",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus un voyage lent qui ne fait pas de bruit.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-couple",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus une absence douce restée dans les yeux.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-couple",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus une dérive intérieure très bien élevée.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-couple",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus un voyage lent qui ne fait pas de bruit.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-couple",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus une absence douce restée dans les yeux.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-couple",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus une dérive intérieure très bien élevée.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-couple",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus un voyage lent qui ne fait pas de bruit.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-couple",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus une absence douce restée dans les yeux.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-couple",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      }
+    ]
+  },
+  "tiktok": {
+    "low": [
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus un regard qui nage plus qu'il ne marche.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-tiktok",
+          "bucket-low",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus une esthétique de bocal parfaitement assumée.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-tiktok",
+          "bucket-low",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus une bulle visuelle très difficile à chronométrer.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-tiktok",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus un regard qui nage plus qu'il ne marche.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-tiktok",
+          "bucket-low",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus une esthétique de bocal parfaitement assumée.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-tiktok",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus une bulle visuelle très difficile à chronométrer.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-tiktok",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus un regard qui nage plus qu'il ne marche.",
+        "tags": [
+          "relax-neutral",
+          "mode-tiktok",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus une esthétique de bocal parfaitement assumée.",
+        "tags": [
+          "relax-neutral",
+          "mode-tiktok",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus une bulle visuelle très difficile à chronométrer.",
+        "tags": [
+          "relax-neutral",
+          "mode-tiktok",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus un regard qui nage plus qu'il ne marche.",
+        "tags": [
+          "expression-amused",
+          "mode-tiktok",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus une esthétique de bocal parfaitement assumée.",
+        "tags": [
+          "expression-amused",
+          "mode-tiktok",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus une bulle visuelle très difficile à chronométrer.",
+        "tags": [
+          "expression-amused",
+          "mode-tiktok",
+          "bucket-low",
+          "decile-9"
+        ]
+      }
+    ],
+    "medium": [
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus un regard qui nage plus qu'il ne marche.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-tiktok",
+          "bucket-medium",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus une esthétique de bocal parfaitement assumée.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-tiktok",
+          "bucket-medium",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus une bulle visuelle très difficile à chronométrer.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-tiktok",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus un regard qui nage plus qu'il ne marche.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-tiktok",
+          "bucket-medium",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus une esthétique de bocal parfaitement assumée.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-tiktok",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus une bulle visuelle très difficile à chronométrer.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-tiktok",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus un regard qui nage plus qu'il ne marche.",
+        "tags": [
+          "expression-dreamy",
+          "mode-tiktok",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus une esthétique de bocal parfaitement assumée.",
+        "tags": [
+          "expression-dreamy",
+          "mode-tiktok",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus une bulle visuelle très difficile à chronométrer.",
+        "tags": [
+          "expression-dreamy",
+          "mode-tiktok",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus un regard qui nage plus qu'il ne marche.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-tiktok",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus une esthétique de bocal parfaitement assumée.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-tiktok",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus une bulle visuelle très difficile à chronométrer.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-tiktok",
+          "bucket-medium",
+          "decile-9"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus un regard qui nage plus qu'il ne marche.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-tiktok",
+          "bucket-high",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus une esthétique de bocal parfaitement assumée.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-tiktok",
+          "bucket-high",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus une bulle visuelle très difficile à chronométrer.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-tiktok",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus un regard qui nage plus qu'il ne marche.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-tiktok",
+          "bucket-high",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus une esthétique de bocal parfaitement assumée.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-tiktok",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus une bulle visuelle très difficile à chronométrer.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-tiktok",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus un regard qui nage plus qu'il ne marche.",
+        "tags": [
+          "expression-sleepy",
+          "mode-tiktok",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus une esthétique de bocal parfaitement assumée.",
+        "tags": [
+          "expression-sleepy",
+          "mode-tiktok",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus une bulle visuelle très difficile à chronométrer.",
+        "tags": [
+          "expression-sleepy",
+          "mode-tiktok",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus un regard qui nage plus qu'il ne marche.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-tiktok",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus une esthétique de bocal parfaitement assumée.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-tiktok",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus une bulle visuelle très difficile à chronométrer.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-tiktok",
+          "bucket-high",
+          "decile-9"
+        ]
+      }
+    ],
+    "extreme": [
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus un regard qui nage plus qu'il ne marche.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-tiktok",
+          "bucket-extreme",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus une esthétique de bocal parfaitement assumée.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-tiktok",
+          "bucket-extreme",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus une bulle visuelle très difficile à chronométrer.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-tiktok",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus un regard qui nage plus qu'il ne marche.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-tiktok",
+          "bucket-extreme",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus une esthétique de bocal parfaitement assumée.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-tiktok",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus une bulle visuelle très difficile à chronométrer.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-tiktok",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus un regard qui nage plus qu'il ne marche.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-tiktok",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus une esthétique de bocal parfaitement assumée.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-tiktok",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus une bulle visuelle très difficile à chronométrer.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-tiktok",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus un regard qui nage plus qu'il ne marche.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-tiktok",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus une esthétique de bocal parfaitement assumée.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-tiktok",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus une bulle visuelle très difficile à chronométrer.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-tiktok",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      }
+    ]
+  },
+  "apres-soiree": {
+    "low": [
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus un lendemain qui n'a pas compris que le concert était fini.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-apres-soiree",
+          "bucket-low",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus un reste de nuit très amplifié.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-apres-soiree",
+          "bucket-low",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus une sortie de scène trop lente pour être honnête.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-apres-soiree",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus un lendemain qui n'a pas compris que le concert était fini.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-apres-soiree",
+          "bucket-low",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus un reste de nuit très amplifié.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-apres-soiree",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus une sortie de scène trop lente pour être honnête.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-apres-soiree",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus un lendemain qui n'a pas compris que le concert était fini.",
+        "tags": [
+          "relax-neutral",
+          "mode-apres-soiree",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus un reste de nuit très amplifié.",
+        "tags": [
+          "relax-neutral",
+          "mode-apres-soiree",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus une sortie de scène trop lente pour être honnête.",
+        "tags": [
+          "relax-neutral",
+          "mode-apres-soiree",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus un lendemain qui n'a pas compris que le concert était fini.",
+        "tags": [
+          "expression-amused",
+          "mode-apres-soiree",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus un reste de nuit très amplifié.",
+        "tags": [
+          "expression-amused",
+          "mode-apres-soiree",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus une sortie de scène trop lente pour être honnête.",
+        "tags": [
+          "expression-amused",
+          "mode-apres-soiree",
+          "bucket-low",
+          "decile-9"
+        ]
+      }
+    ],
+    "medium": [
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus un lendemain qui n'a pas compris que le concert était fini.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-apres-soiree",
+          "bucket-medium",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus un reste de nuit très amplifié.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-apres-soiree",
+          "bucket-medium",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus une sortie de scène trop lente pour être honnête.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-apres-soiree",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus un lendemain qui n'a pas compris que le concert était fini.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-apres-soiree",
+          "bucket-medium",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus un reste de nuit très amplifié.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-apres-soiree",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus une sortie de scène trop lente pour être honnête.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-apres-soiree",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus un lendemain qui n'a pas compris que le concert était fini.",
+        "tags": [
+          "expression-dreamy",
+          "mode-apres-soiree",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus un reste de nuit très amplifié.",
+        "tags": [
+          "expression-dreamy",
+          "mode-apres-soiree",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus une sortie de scène trop lente pour être honnête.",
+        "tags": [
+          "expression-dreamy",
+          "mode-apres-soiree",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus un lendemain qui n'a pas compris que le concert était fini.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-apres-soiree",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus un reste de nuit très amplifié.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-apres-soiree",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus une sortie de scène trop lente pour être honnête.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-apres-soiree",
+          "bucket-medium",
+          "decile-9"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus un lendemain qui n'a pas compris que le concert était fini.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-apres-soiree",
+          "bucket-high",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus un reste de nuit très amplifié.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-apres-soiree",
+          "bucket-high",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus une sortie de scène trop lente pour être honnête.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-apres-soiree",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus un lendemain qui n'a pas compris que le concert était fini.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-apres-soiree",
+          "bucket-high",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus un reste de nuit très amplifié.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-apres-soiree",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus une sortie de scène trop lente pour être honnête.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-apres-soiree",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus un lendemain qui n'a pas compris que le concert était fini.",
+        "tags": [
+          "expression-sleepy",
+          "mode-apres-soiree",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus un reste de nuit très amplifié.",
+        "tags": [
+          "expression-sleepy",
+          "mode-apres-soiree",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus une sortie de scène trop lente pour être honnête.",
+        "tags": [
+          "expression-sleepy",
+          "mode-apres-soiree",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus un lendemain qui n'a pas compris que le concert était fini.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-apres-soiree",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus un reste de nuit très amplifié.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-apres-soiree",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus une sortie de scène trop lente pour être honnête.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-apres-soiree",
+          "bucket-high",
+          "decile-9"
+        ]
+      }
+    ],
+    "extreme": [
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus un lendemain qui n'a pas compris que le concert était fini.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-apres-soiree",
+          "bucket-extreme",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus un reste de nuit très amplifié.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-apres-soiree",
+          "bucket-extreme",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus une sortie de scène trop lente pour être honnête.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-apres-soiree",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus un lendemain qui n'a pas compris que le concert était fini.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-apres-soiree",
+          "bucket-extreme",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus un reste de nuit très amplifié.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-apres-soiree",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus une sortie de scène trop lente pour être honnête.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-apres-soiree",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus un lendemain qui n'a pas compris que le concert était fini.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-apres-soiree",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus un reste de nuit très amplifié.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-apres-soiree",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus une sortie de scène trop lente pour être honnête.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-apres-soiree",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus un lendemain qui n'a pas compris que le concert était fini.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-apres-soiree",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus un reste de nuit très amplifié.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-apres-soiree",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus une sortie de scène trop lente pour être honnête.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-apres-soiree",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      }
+    ]
+  },
+  "avant-cafe": {
+    "low": [
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus une envie de confort qui a gagné très tôt.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-avant-cafe",
+          "bucket-low",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus un velours intérieur beaucoup trop convaincant.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-avant-cafe",
+          "bucket-low",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un relâchement très léger du visage, plus une noblesse de coussin impossible à ignorer.",
+        "tags": [
+          "score-low",
+          "combo-grounded",
+          "mode-avant-cafe",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus une envie de confort qui a gagné très tôt.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-avant-cafe",
+          "bucket-low",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus un velours intérieur beaucoup trop convaincant.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-avant-cafe",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un regard un peu plus lent que ton wifi, plus une noblesse de coussin impossible à ignorer.",
+        "tags": [
+          "gaze-steady",
+          "eye-normal",
+          "mode-avant-cafe",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus une envie de confort qui a gagné très tôt.",
+        "tags": [
+          "relax-neutral",
+          "mode-avant-cafe",
+          "bucket-low",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus un velours intérieur beaucoup trop convaincant.",
+        "tags": [
+          "relax-neutral",
+          "mode-avant-cafe",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une détente visuelle presque élégante, plus une noblesse de coussin impossible à ignorer.",
+        "tags": [
+          "relax-neutral",
+          "mode-avant-cafe",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus une envie de confort qui a gagné très tôt.",
+        "tags": [
+          "expression-amused",
+          "mode-avant-cafe",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus un velours intérieur beaucoup trop convaincant.",
+        "tags": [
+          "expression-amused",
+          "mode-avant-cafe",
+          "bucket-low",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une petite dérive esthétique sans drame, plus une noblesse de coussin impossible à ignorer.",
+        "tags": [
+          "expression-amused",
+          "mode-avant-cafe",
+          "bucket-low",
+          "decile-9"
+        ]
+      }
+    ],
+    "medium": [
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus une envie de confort qui a gagné très tôt.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-avant-cafe",
+          "bucket-medium",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus un velours intérieur beaucoup trop convaincant.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-avant-cafe",
+          "bucket-medium",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un regard qui glisse doucement hors du powerpoint intérieur, plus une noblesse de coussin impossible à ignorer.",
+        "tags": [
+          "score-medium",
+          "gaze-distant",
+          "mode-avant-cafe",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus une envie de confort qui a gagné très tôt.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-avant-cafe",
+          "bucket-medium",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus un velours intérieur beaucoup trop convaincant.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-avant-cafe",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une détente faciale qui préfère clairement le canapé au timing, plus une noblesse de coussin impossible à ignorer.",
+        "tags": [
+          "eye-soft",
+          "relax-relaxed",
+          "mode-avant-cafe",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus une envie de confort qui a gagné très tôt.",
+        "tags": [
+          "expression-dreamy",
+          "mode-avant-cafe",
+          "bucket-medium",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus un velours intérieur beaucoup trop convaincant.",
+        "tags": [
+          "expression-dreamy",
+          "mode-avant-cafe",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une nonchalance assez visible pour mériter son badge, plus une noblesse de coussin impossible à ignorer.",
+        "tags": [
+          "expression-dreamy",
+          "mode-avant-cafe",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus une envie de confort qui a gagné très tôt.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-avant-cafe",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus un velours intérieur beaucoup trop convaincant.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-avant-cafe",
+          "bucket-medium",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance qui ralentit tout sans demander la permission, plus une noblesse de coussin impossible à ignorer.",
+        "tags": [
+          "tilt-slight_tilt",
+          "mode-avant-cafe",
+          "bucket-medium",
+          "decile-9"
+        ]
+      }
+    ],
+    "high": [
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus une envie de confort qui a gagné très tôt.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-avant-cafe",
+          "bucket-high",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus un velours intérieur beaucoup trop convaincant.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-avant-cafe",
+          "bucket-high",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent un combo regard lent, paupières lourdes et détente haut de gamme, plus une noblesse de coussin impossible à ignorer.",
+        "tags": [
+          "score-high",
+          "gaze-floating",
+          "mode-avant-cafe",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus une envie de confort qui a gagné très tôt.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-avant-cafe",
+          "bucket-high",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus un velours intérieur beaucoup trop convaincant.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-avant-cafe",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une belle sortie de route vers une fréquence plus molle que la moyenne, plus une noblesse de coussin impossible à ignorer.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-avant-cafe",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus une envie de confort qui a gagné très tôt.",
+        "tags": [
+          "expression-sleepy",
+          "mode-avant-cafe",
+          "bucket-high",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus un velours intérieur beaucoup trop convaincant.",
+        "tags": [
+          "expression-sleepy",
+          "mode-avant-cafe",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent un visage qui choisit clairement la voie du grand flottement, plus une noblesse de coussin impossible à ignorer.",
+        "tags": [
+          "expression-sleepy",
+          "mode-avant-cafe",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus une envie de confort qui a gagné très tôt.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-avant-cafe",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus un velours intérieur beaucoup trop convaincant.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-avant-cafe",
+          "bucket-high",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une ambiance visuelle qui a déjà pris un billet pour la lenteur, plus une noblesse de coussin impossible à ignorer.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-avant-cafe",
+          "bucket-high",
+          "decile-9"
+        ]
+      }
+    ],
+    "extreme": [
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus une envie de confort qui a gagné très tôt.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-avant-cafe",
+          "bucket-extreme",
+          "decile-2"
+        ]
+      },
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus un velours intérieur beaucoup trop convaincant.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-avant-cafe",
+          "bucket-extreme",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une combinaison très premium de regard lointain, tête molle et orbite assumée, plus une noblesse de coussin impossible à ignorer.",
+        "tags": [
+          "score-extreme",
+          "gaze-floating",
+          "mode-avant-cafe",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus une envie de confort qui a gagné très tôt.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-avant-cafe",
+          "bucket-extreme",
+          "decile-5"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus un velours intérieur beaucoup trop convaincant.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-avant-cafe",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité, plus une noblesse de coussin impossible à ignorer.",
+        "tags": [
+          "eye-half_closed",
+          "relax-melted",
+          "mode-avant-cafe",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus une envie de confort qui a gagné très tôt.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-avant-cafe",
+          "bucket-extreme",
+          "decile-7"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus un velours intérieur beaucoup trop convaincant.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-avant-cafe",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une disparition visuelle suffisamment noble pour mériter sa propre galerie, plus une noblesse de coussin impossible à ignorer.",
+        "tags": [
+          "tilt-visible_tilt",
+          "mode-avant-cafe",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus une envie de confort qui a gagné très tôt.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-avant-cafe",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus un velours intérieur beaucoup trop convaincant.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-avant-cafe",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      },
+      {
+        "text": "Ça sent une lenteur spatiale qui a gagné la négociation très tôt, plus une noblesse de coussin impossible à ignorer.",
+        "tags": [
+          "expression-dreamy",
+          "combo-soft-launch",
+          "mode-avant-cafe",
+          "bucket-extreme",
+          "decile-9"
+        ]
+      }
+    ]
+  }
+}
