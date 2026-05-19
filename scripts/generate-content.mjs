@@ -376,6 +376,50 @@ function dePlace(place) {
   return `de ${place}`;
 }
 
+function capitalizeFirst(value) {
+  if (!value) return value;
+  return value.charAt(0).toUpperCase() + value.slice(1);
+}
+
+function trimLeadingEt(value) {
+  return value.replace(/^et\s+/i, "").trim();
+}
+
+function buildCauseVariants(cause, modeCause, place) {
+  return [
+    `On lit surtout ${cause}. Derrière, ça sent aussi ${modeCause}.`,
+    `Le vrai souci, c'est ${cause}. Et pour finir le chantier, il y a ${modeCause}.`,
+    `Ta photo mélange ${cause}. En bonus, ${modeCause}.`,
+    `Entre ${cause} et ${modeCause}, ton visage a clairement choisi le folklore.`,
+    `Tu as ${cause} dans la tronche, avec un petit parfum ${dePlace(place)} qui charge encore le dossier.`,
+    `Le regard raconte ${cause}. Le reste de la face part sur ${modeCause}.`,
+  ];
+}
+
+function buildTipVariants(tip, modeTip) {
+  return [
+    `Le meilleur plan, c'est simple : ${tip}. Ensuite, ${modeTip}.`,
+    `Pour limiter la casse, ${tip}. Et franchement, ${modeTip}.`,
+    `Aujourd'hui, ${tip}. Le reste peut attendre, donc ${modeTip}.`,
+    `Si tu veux éviter le sketch, ${tip}. Bonus utile, ${modeTip}.`,
+    `Commence par ça : ${tip}. Après seulement, ${modeTip}.`,
+    `L'ordre des priorités est clair : ${tip}. Puis ${modeTip}.`,
+  ];
+}
+
+function buildShareVariants(mode, share, modeShare) {
+  const cleanShare = capitalizeFirst(share);
+  const cleanModeShare = capitalizeFirst(trimLeadingEt(modeShare));
+
+  return [
+    `J'ai fait T'es stone ? : ${cleanShare}. ${cleanModeShare}.`,
+    `Verdict ${mode.label.toLowerCase()} : ${cleanShare}. ${cleanModeShare}.`,
+    `${mode.icon} ${cleanShare}. ${cleanModeShare}.`,
+    `Le stonomètre est formel : ${cleanShare}. ${cleanModeShare}.`,
+    `Résultat ${mode.label.toLowerCase()} : ${cleanShare}. ${cleanModeShare}.`,
+  ];
+}
+
 function writeJson(name, value) {
   fs.writeFileSync(path.join(outDir, name), `${JSON.stringify(value, null, 2)}\n`);
 }
@@ -426,15 +470,16 @@ for (const [modeKey, mode] of Object.entries(modes)) {
 
     causes[modeKey][bucket] = uniqBy(
       tier.causes.flatMap((cause, causeIndex) =>
-        mode.causes.map((modeCause, modeIndex) =>
-          makeTagged(
-            `Ça sent ${cause}, plus ${modeCause}.`,
-            [
-              ...tier.causeTags[causeIndex % tier.causeTags.length],
-              `mode-${modeKey}`,
-              `bucket-${bucket}`,
-              `decile-${Math.min(9, Math.floor(((causeIndex + modeIndex + 1) * 10) / 6))}`,
-            ],
+        mode.causes.flatMap((modeCause, modeIndex) =>
+          mode.universe.flatMap((place, placeIndex) =>
+            buildCauseVariants(cause, modeCause, place).map((text, variantIndex) =>
+              makeTagged(text, [
+                ...tier.causeTags[causeIndex % tier.causeTags.length],
+                `mode-${modeKey}`,
+                `bucket-${bucket}`,
+                `decile-${(causeIndex + modeIndex + placeIndex + variantIndex) % 10}`,
+              ]),
+            ),
           ),
         ),
       ),
@@ -443,10 +488,9 @@ for (const [modeKey, mode] of Object.entries(modes)) {
 
     tips[modeKey][bucket] = uniqBy(
       tier.tips.flatMap((tip, tipIndex) =>
-        mode.tips.map((modeTip) =>
-          makeTagged(
-            `Le meilleur move, c'est ${tip}, puis ${modeTip}.`,
-            [...tier.tipTags[tipIndex % tier.tipTags.length], `mode-${modeKey}`, `bucket-${bucket}`],
+        mode.tips.flatMap((modeTip) =>
+          buildTipVariants(tip, modeTip).map((text) =>
+            makeTagged(text, [...tier.tipTags[tipIndex % tier.tipTags.length], `mode-${modeKey}`, `bucket-${bucket}`]),
           ),
         ),
       ),
@@ -458,13 +502,7 @@ for (const [modeKey, mode] of Object.entries(modes)) {
     );
 
     shareLines[modeKey][bucket] = uniq(
-      tier.shares.flatMap((share) =>
-        mode.shares.flatMap((modeShare) => [
-          `${share}, ${modeShare}.`,
-          `${mode.icon} ${modeShare}, ${share}.`,
-          `${share} version ${mode.label.toLowerCase()}, ${modeShare}.`,
-        ]),
-      ),
+      tier.shares.flatMap((share) => mode.shares.flatMap((modeShare) => buildShareVariants(mode, share, modeShare))),
     );
   }
 }

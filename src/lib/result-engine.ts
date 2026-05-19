@@ -575,9 +575,9 @@ export function generateResult(
 
   const badge = buildBadge(mode, level.band, seedBase);
   const line = buildLine(rawLine, level.band, seedBase);
-  const probableCause = `${probableCauseCore} ${buildBucketSentence(level.bucket, "cause", seedBase)}`;
-  const tip = `${tipCore} ${buildBucketSentence(level.bucket, "tip", seedBase)}`;
-  const shareLine = `${shareLineCore} ${buildModeSentence(mode, seedBase, "shareAddon")}`;
+  const probableCause = probableCauseCore;
+  const tip = tipCore;
+  const shareLine = shareLineCore;
 
   const engineLabel = options?.usedFallback ? FUN_ESTIMATION_LABEL : "Analyse selfie IA + bibliothèque locale";
   const shareText = [
@@ -588,6 +588,8 @@ export function generateResult(
     `Cause probable : ${probableCause}`,
     `Conseil de survie : ${tip}`,
     shareLine,
+    `Ambiance : ${buildBucketSentence(level.bucket, "share", seedBase)}`,
+    `Bonus : ${buildModeSentence(mode, seedBase, "shareAddon")}`,
   ].join("\n");
 
   return {
