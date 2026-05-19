@@ -35,6 +35,9 @@ export const metadata: Metadata = {
   category: "entertainment",
   metadataBase: new URL("https://tes-stone.vercel.app"),
   manifest: "/manifest.webmanifest",
+  verification: {
+    google: "y-RjjshySGdUClJaHi9OTtvMKMWJ6GVsPe8QInPG0r0",
+  },
   robots: {
     index: true,
     follow: true,
