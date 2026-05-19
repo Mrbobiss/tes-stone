@@ -2,7 +2,7 @@
   "normal": {
     "label": "Renaud de comptoir",
     "icon": "🍷",
-    "description": "Poésie de bar, ironie tendre et regard qui chante déjà la suite.",
+    "description": "Poésie rincée, comptoir blessé et charisme de fin de verre.",
     "gradient": [
       "from-rose-500",
       "via-orange-400",
@@ -12,7 +12,7 @@
   "gentil": {
     "label": "Bob Marley",
     "icon": "🌿",
-    "description": "Chill solaire, sourire lent et nuage très diplomatique.",
+    "description": "Soleil mou, sourire en hamac et retard très diplomatique.",
     "gradient": [
       "from-emerald-500",
       "via-lime-400",
@@ -22,7 +22,7 @@
   "brutal": {
     "label": "Mick Jagger",
     "icon": "🕺",
-    "description": "Rock sale, after en cuir et charisme légèrement rincé.",
+    "description": "After sale, charisme rincé et rockstar très peu aidée.",
     "gradient": [
       "from-fuchsia-600",
       "via-rose-500",
@@ -32,7 +32,7 @@
   "bureau": {
     "label": "Philosophe du canapé",
     "icon": "🛋️",
-    "description": "Grand confort, pensée lente et dissertation allongée.",
+    "description": "Canapé doctoral, pensée molle et dissertation profondément inutile.",
     "gradient": [
       "from-slate-600",
       "via-indigo-400",
@@ -42,7 +42,7 @@
   "etudiant": {
     "label": "Festival survivor",
     "icon": "🎪",
-    "description": "Bracelet imaginaire, lever de soleil douteux et basses dans l'œil gauche.",
+    "description": "Retour de set, soleil gênant et cerveau sous bracelet fantôme.",
     "gradient": [
       "from-violet-600",
       "via-fuchsia-500",
@@ -52,7 +52,7 @@
   "parent": {
     "label": "Dub lunaire",
     "icon": "🌙",
-    "description": "Basses lentes, nuit bleue et orbite à tempo réduit.",
+    "description": "Basse lente, pièce bleue et orbite qui marche en retard.",
     "gradient": [
       "from-indigo-700",
       "via-violet-500",
@@ -62,7 +62,7 @@
   "couple": {
     "label": "Astral discret",
     "icon": "🪐",
-    "description": "Petit voyage intérieur, plafond intéressant et absence polie.",
+    "description": "Voyage poli, plafond suspect et absence très bien élevée.",
     "gradient": [
       "from-sky-500",
       "via-indigo-400",
@@ -72,7 +72,7 @@
   "tiktok": {
     "label": "Regard aquarium",
     "icon": "🐠",
-    "description": "Néon liquide, bulle silencieuse et face cam très bocal cosmique.",
+    "description": "Face cam liquide, néon sale et cerveau en bocal premium.",
     "gradient": [
       "from-cyan-500",
       "via-blue-400",
@@ -82,7 +82,7 @@
   "apres-soiree": {
     "label": "Rocker d'after",
     "icon": "🎸",
-    "description": "Fin de scène, néons fatigués et retour amplifié.",
+    "description": "Fin de scène douteuse, néons cruels et retour mal rangé.",
     "gradient": [
       "from-amber-600",
       "via-rose-500",
@@ -92,7 +92,7 @@
   "avant-cafe": {
     "label": "Canapé premium",
     "icon": "☁️",
-    "description": "Velours mental, coussin imaginaire et luxe de la lenteur.",
+    "description": "Velours mental, dignité en peignoir et lenteur de luxe.",
     "gradient": [
       "from-amber-400",
       "via-orange-300",
