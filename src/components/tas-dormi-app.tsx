@@ -684,14 +684,9 @@ export function TasDormiApp({ exampleResult }: TasDormiAppProps) {
               <div className="grid gap-4 lg:grid-cols-[0.9fr_1.1fr] lg:items-start lg:gap-6">
                 <div className="order-1 space-y-4 lg:order-2">
                   <div className="rounded-[1.8rem] border border-zinc-200 bg-zinc-50 p-4 text-left sm:p-5">
-                    <div className="flex items-start justify-between gap-3">
-                      <div>
-                        <p className="text-sm font-semibold uppercase tracking-[0.24em] text-zinc-500">Choisis ta ref</p>
-                        <p className="mt-1 text-sm text-zinc-600">Choisis d&apos;abord ton personnage, puis balance directement ton selfie.</p>
-                      </div>
-                      <span className="rounded-full bg-white px-3 py-1 text-xs font-semibold text-zinc-700">
-                        {modeMeta.icon} {modeMeta.label}
-                      </span>
+                    <div>
+                      <p className="text-sm font-semibold uppercase tracking-[0.24em] text-zinc-500">Choisis ta ref</p>
+                      <p className="mt-1 text-sm text-zinc-600">Choisis d&apos;abord ton personnage, puis balance directement ton selfie.</p>
                     </div>
 
                     <label className="mt-4 block text-sm font-medium text-zinc-700">
