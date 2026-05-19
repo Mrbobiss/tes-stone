@@ -368,6 +368,14 @@ function makeTagged(text, tags) {
   return { text, tags: uniq(tags) };
 }
 
+function dePlace(place) {
+  if (place.startsWith("le ")) return `du ${place.slice(3)}`;
+  if (place.startsWith("les ")) return `des ${place.slice(4)}`;
+  if (place.startsWith("la ")) return `de ${place}`;
+  if (place.startsWith("l'")) return `de ${place}`;
+  return `de ${place}`;
+}
+
 function writeJson(name, value) {
   fs.writeFileSync(path.join(outDir, name), `${JSON.stringify(value, null, 2)}\n`);
 }
@@ -408,9 +416,9 @@ for (const [modeKey, mode] of Object.entries(modes)) {
       tier.roastLead.flatMap((lead) =>
         tier.roastTwist.flatMap((twist) =>
           mode.universe.flatMap((place) => [
-            `${lead}, ${twist}, version ${mode.label.toLowerCase()} entre ${place} et accident social mineur.`,
-            `${lead}. On dirait ${place} qui s'est installé derrière tes yeux sans payer de loyer.`,
-            `${lead}, avec une vraie énergie ${mode.label.toLowerCase()} élevée dans ${place}.`,
+            `${lead}, ${twist}.`,
+            `${lead}. On sent ${place} quelque part sur la photo.`,
+            `${lead}, avec un petit parfum ${dePlace(place)}.`,
           ]),
         ),
       ),

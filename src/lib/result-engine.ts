@@ -1,5 +1,5 @@
 import { RESULT_DISCLAIMER, FUN_ESTIMATION_LABEL } from "@/lib/constants";
-import { badges, causes, challenges, modes, roasts, shareLines, tips } from "@/lib/content";
+import { causes, challenges, modes, roasts, shareLines, tips } from "@/lib/content";
 import type { AppMode, ResultCardData, StoneBucket, TaggedLine, VisionAnalysis } from "@/lib/types";
 import { clamp, pickDeterministic } from "@/lib/utils";
 
@@ -15,6 +15,67 @@ interface ResultGenerationOptions {
 }
 
 type ScoreBandKey = "clear" | "spark" | "float" | "lifted" | "social" | "orbital" | "cosmic";
+
+const modeBadgeWords: Record<AppMode, string[]> = {
+  normal: ["zinc", "comptoir", "refrain", "demi-sec"],
+  gentil: ["reggae", "hamac", "soleil mou", "fumée douce"],
+  brutal: ["backstage", "cuir", "rappel", "rockstar rincée"],
+  bureau: ["canapé", "plaid", "velours", "coussin"],
+  etudiant: ["festival", "camping", "bracelet", "retour de set"],
+  parent: ["dub", "basse lente", "lune", "écho"],
+  couple: ["astral", "plafond", "navette", "silence cosmique"],
+  tiktok: ["aquarium", "face cam", "néon", "bocal"],
+  "apres-soiree": ["after", "retour", "néon", "fin de scène"],
+  "avant-cafe": ["velours", "coussin", "canapé premium", "peignoir cosmique"],
+};
+
+const bandBadgeWords: Record<ScoreBandKey, string[]> = {
+  clear: ["quasi propre", "à peine flou", "encore net", "presque sage"],
+  spark: ["un peu mariné", "légèrement de travers", "déjà bancal", "mini nuage"],
+  float: ["en glissade", "version folklore", "en retard intérieur", "semi-rincé"],
+  lifted: ["bien flottant", "déjà douteux", "potache certifié", "en roue libre"],
+  social: ["socialement douteux", "déjà loin", "rincé premium", "en sale orbite"],
+  orbital: ["hautement satellisé", "très bancal", "version chantier", "en orbite douce"],
+  cosmic: ["hors service", "sans pilote", "cassos deluxe", "chantier cosmique"],
+};
+
+const bandLineClosers: Record<ScoreBandKey, string[]> = {
+  clear: [
+    "Franchement, t'es surtout un peu à côté, pas stone.",
+    "Ça reste léger, donc on te chambre plus qu'on ne t'enterre.",
+    "Rien de dramatique, c'est juste une petite tête de travers bien rentable.",
+  ],
+  spark: [
+    "Ça reste petit bras, mais assez pour te faire afficher dans le groupe.",
+    "On commence à sentir le mini décrochage, juste ce qu'il faut pour la vanne.",
+    "T'es encore récupérable, mais déjà très moquable.",
+  ],
+  float: [
+    "Là, oui, ça commence à sentir la vraie dérive marrante.",
+    "Tu flottes déjà assez pour que le roast soit mérité.",
+    "On n'est plus dans la simple sale photo, on est dans la vibe suspecte.",
+  ],
+  lifted: [
+    "Là, ta note commence à parler plus fort que tes excuses.",
+    "Tu es dans la bonne zone pour devenir un souvenir de groupe.",
+    "Ça flotte franchement, et ça se voit sans zoom.",
+  ],
+  social: [
+    "Là, ton visage commence vraiment à raconter des choses graves pour ta réputation.",
+    "On est sur un vrai départ contrôlé, mais certainement pas discret.",
+    "Ta note autorise clairement le roast sale et bien mérité.",
+  ],
+  orbital: [
+    "Là, ça devient une vraie pièce à conviction.",
+    "Tu n'es plus juste flou, tu es officiellement en croisière faciale.",
+    "On entre dans la belle zone de honte parfaitement défendable.",
+  ],
+  cosmic: [
+    "Là, on tient un dossier, pas juste une photo.",
+    "Ta note est trop haute pour qu'on fasse semblant d'être polis.",
+    "On est dans la catégorie légende locale, archive et fou rire collectif.",
+  ],
+};
 
 const stoneLevels: Array<{ min: number; max: number; label: string; tone: string; bucket: StoneBucket; band: ScoreBandKey }> = [
   { min: 0, max: 11, label: "Clair net", tone: "très lucide", bucket: "low", band: "clear" },
@@ -469,6 +530,16 @@ function buildModeSentence(mode: AppMode, seedBase: string, key: keyof (typeof m
   return pickDeterministic(modeVoices[mode][key], `${seedBase}:${key}`);
 }
 
+function buildBadge(mode: AppMode, band: ScoreBandKey, seedBase: string) {
+  const left = pickDeterministic(modeBadgeWords[mode], `${seedBase}:badge-mode`);
+  const right = pickDeterministic(bandBadgeWords[band], `${seedBase}:badge-band`);
+  return `${left} ${right}`;
+}
+
+function buildLine(rawLine: string, band: ScoreBandKey, seedBase: string) {
+  return `${rawLine} ${pickDeterministic(bandLineClosers[band], `${seedBase}:line-closer`)}`;
+}
+
 export function generateResult(
   analysis: VisionAnalysis,
   mode: AppMode,
@@ -481,12 +552,6 @@ export function generateResult(
   const seedBase = `${mode}:${score}:${signature}:${options?.variantSeed ?? "base"}:${analysis.stone_score}:${analysis.eye_openness}:${analysis.gaze_focus}:${analysis.smile}:${analysis.expression}:${analysis.lighting_quality}:${analysis.confidence}:${analysis.face_framing}:${analysis.pose}:${analysis.clarity_contrast}:${analysis.eye_balance}:${analysis.head_tilt}:${analysis.face_relaxation}`;
 
   const recentSelections = options?.recentSelections;
-  const rawBadge = pickFreshCopy(
-    getBucketAlignedPool(badges[mode][level.bucket], level.bucket, "badge"),
-    `${seedBase}:badge:fresh`,
-    Math.abs(signature) % 7,
-    recentSelections?.badges,
-  );
   const rawLine = pickFreshCopy(
     getBucketAlignedPool(roasts[mode][level.bucket], level.bucket, "line"),
     `${seedBase}:line:fresh`,
@@ -508,12 +573,11 @@ export function generateResult(
     recentSelections?.shareLines,
   );
 
-  const badgePrefix = buildModeSentence(mode, seedBase, "badgePrefix");
-  const badge = `${badgePrefix} · ${rawBadge}`;
-  const line = `${rawLine} ${buildModeSentence(mode, seedBase, "lineAddon")} ${buildBucketSentence(level.bucket, "line", seedBase)}`;
-  const probableCause = `${probableCauseCore} ${buildModeSentence(mode, seedBase, "causeAddon")} ${buildBucketSentence(level.bucket, "cause", seedBase)}`;
-  const tip = `${tipCore} ${buildModeSentence(mode, seedBase, "tipAddon")} ${buildBucketSentence(level.bucket, "tip", seedBase)}`;
-  const shareLine = `${shareLineCore} ${buildModeSentence(mode, seedBase, "shareAddon")} ${buildBucketSentence(level.bucket, "share", seedBase)}`;
+  const badge = buildBadge(mode, level.band, seedBase);
+  const line = buildLine(rawLine, level.band, seedBase);
+  const probableCause = `${probableCauseCore} ${buildBucketSentence(level.bucket, "cause", seedBase)}`;
+  const tip = `${tipCore} ${buildBucketSentence(level.bucket, "tip", seedBase)}`;
+  const shareLine = `${shareLineCore} ${buildModeSentence(mode, seedBase, "shareAddon")}`;
 
   const engineLabel = options?.usedFallback ? FUN_ESTIMATION_LABEL : "Analyse selfie IA + bibliothèque locale";
   const shareText = [
