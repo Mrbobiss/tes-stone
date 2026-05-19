@@ -893,12 +893,12 @@ export function TasDormiApp({ exampleResult }: TasDormiAppProps) {
                   <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4">
                     <p className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500">Score</p>
                     <p className="mt-2 text-3xl font-black text-zinc-950">{currentResult.score}/100</p>
-                    <p className="mt-1 text-sm text-zinc-600">Ambiance {currentResult.modeLabel.toLowerCase()}.</p>
+                    <p className="mt-1 text-sm text-zinc-600">Ref {currentResult.modeLabel.toLowerCase()}.</p>
                   </div>
                   <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4">
                     <p className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500">Niveau</p>
                     <p className="mt-2 text-lg font-semibold text-zinc-950">{currentResult.level}</p>
-                    <p className="mt-1 text-sm text-zinc-600">Ton verdict du jour.</p>
+                    <p className="mt-1 text-sm text-zinc-600">Ta lecture du moment.</p>
                   </div>
                   <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4">
                     <p className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500">Trophées</p>
@@ -915,7 +915,7 @@ export function TasDormiApp({ exampleResult }: TasDormiAppProps) {
                   {currentResult.vibeNote ? <p className="rounded-2xl bg-zinc-50 px-3 py-2 text-sm text-zinc-600">{currentResult.vibeNote}</p> : null}
                   {currentResult.photoNote ? <p className="rounded-2xl bg-amber-50 px-3 py-2 text-sm text-amber-800">{currentResult.photoNote}</p> : null}
                   {currentResult.reliabilityNote ? <p className="rounded-2xl bg-sky-50 px-3 py-2 text-sm text-sky-800">{currentResult.reliabilityNote}</p> : null}
-                  {usedFallback ? <p className="rounded-2xl bg-fuchsia-50 px-3 py-2 text-sm text-fuchsia-800">Mode estimation fun activé, donc le résultat reste dans l’esprit du jeu.</p> : null}
+                  {usedFallback ? <p className="rounded-2xl bg-fuchsia-50 px-3 py-2 text-sm text-fuchsia-800">Mode estimation planante activé, donc le résultat reste dans l’esprit du jeu.</p> : null}
                   <p className="text-xs font-medium uppercase tracking-[0.18em] text-zinc-500">{currentResult.shortDisclaimer}</p>
                 </div>
 
@@ -1042,7 +1042,7 @@ export function TasDormiApp({ exampleResult }: TasDormiAppProps) {
           ) : (
             <div className="lg:col-span-3 rounded-[2rem] border border-zinc-200 bg-white p-5 text-sm leading-6 text-zinc-600 shadow-[0_18px_60px_rgba(15,23,42,0.06)] sm:p-6">
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-zinc-500">Ton espace perso</p>
-              <h3 className="mt-2 text-xl font-bold text-zinc-950">Historique, trophées et classement apparaissent après ton premier verdict</h3>
+              <h3 className="mt-2 text-xl font-bold text-zinc-950">Historique, trophées et classement apparaissent après ton premier stonomètre</h3>
               <p className="mt-3">Tout reste local sur cet appareil, donc rien n’apparaît tant que tu n’as pas lancé au moins un stonomètre.</p>
             </div>
           )}
@@ -1113,7 +1113,7 @@ export function TasDormiApp({ exampleResult }: TasDormiAppProps) {
               ) : (
                 <div className="rounded-[2rem] border border-zinc-200 bg-white p-5 shadow-[0_18px_60px_rgba(15,23,42,0.06)]">
                   <p className="text-sm font-semibold uppercase tracking-[0.24em] text-zinc-500">Ton coin perso</p>
-                  <h3 className="mt-2 text-xl font-bold text-zinc-950">Il se remplit après ton premier verdict</h3>
+                  <h3 className="mt-2 text-xl font-bold text-zinc-950">Il se remplit après ton premier stonomètre</h3>
                   <p className="mt-3 text-sm leading-6 text-zinc-600">
                     Dès que tu lances un stonomètre, tu débloques ton historique, tes trophées et ton top des vibes les plus mémorables, toujours sur cet appareil.
                   </p>

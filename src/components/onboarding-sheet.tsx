@@ -5,22 +5,22 @@ import { useMemo, useState } from "react";
 const slides = [
   {
     kicker: "Rapide et drôle",
-    title: "Selfie, verdict, partage. En quelques secondes.",
+    title: "Selfie, score stone, partage. En quelques secondes.",
     body: "Tu prends une photo, l’app te sort un score, un badge et une punchline prête à partir dans le groupe.",
     accent: "from-fuchsia-500 via-pink-500 to-orange-400",
     emoji: "⚡",
   },
   {
     kicker: "Privé par défaut",
-    title: "Tes souvenirs du matin restent sur ton téléphone.",
+    title: "Tes cartes planantes restent sur ton téléphone.",
     body: "Pas de compte à créer, pas de galerie cachée. Juste ton historique perso pour comparer tes vibes au fil des jours.",
     accent: "from-sky-500 via-cyan-500 to-emerald-400",
     emoji: "🔒",
   },
   {
     kicker: "Prêt à poster",
-    title: "Choisis ton ambiance et transforme le verdict en story.",
-    body: "Doux, brutal, bureau ou TikTok, le ton change vraiment. Ensuite tu exportes la carte ou tu partages le texte en un geste.",
+    title: "Choisis ta ref et transforme le score en story.",
+    body: "Renaud de comptoir, Bob Marley, Mick Jagger ou aquarium cosmique, la personnalité change vraiment. Ensuite tu exportes la carte ou tu partages le texte en un geste.",
     accent: "from-violet-600 via-fuchsia-500 to-rose-500",
     emoji: "📱",
   },
@@ -91,7 +91,7 @@ export function OnboardingSheet({ onStart, onDismiss }: OnboardingSheetProps) {
               }}
               className="inline-flex items-center justify-center rounded-full bg-zinc-950 px-5 py-3 text-sm font-semibold text-white transition hover:bg-zinc-800"
             >
-              {isLast ? "Lancer mon premier verdict" : "Continuer"}
+              {isLast ? "Lancer mon premier stonomètre" : "Continuer"}
             </button>
             <button
               type="button"

@@ -39,7 +39,7 @@ const bucketGuidance: Record<
     line: [
       "Le score reste très terrestre, on parle surtout d'un mini voile, pas d'un décollage.",
       "À ce niveau-là, tu dégages une petite humeur floue, pas un vrai départ astral.",
-      "Le score dit surtout présence humaine avec léger nuage d'ambiance.",
+      "Le score dit surtout présence humaine avec léger nuage planant.",
     ],
     cause: [
       "On lit surtout un style relâché, pas une vraie disparition dans l'espace-temps.",
@@ -83,7 +83,7 @@ const bucketGuidance: Record<
     line: [
       "Là, le score commence franchement à raconter un regard qui vit ailleurs.",
       "On n'est plus sur un simple nuage, mais sur une vraie orbite douce et visible.",
-      "Le niveau affiché autorise clairement un verdict planant assumé.",
+      "Le niveau affiché autorise clairement une lecture planante assumée.",
     ],
     cause: [
       "Le visage mélange regard lent, détente forte et présence très négociée.",
@@ -103,7 +103,7 @@ const bucketGuidance: Record<
   },
   extreme: {
     line: [
-      "Ici, le score assume complètement un verdict rouge nébuleuse.",
+      "Ici, le score assume complètement une lecture rouge nébuleuse.",
       "À ce niveau, ton visage a déjà quitté la pièce pendant que ton corps gère l'administratif.",
       "Le niveau affiché justifie un ton cosmique total sans forcer le délire.",
     ],
@@ -167,7 +167,7 @@ const modeVoices: Record<
     lineAddon: ["Le mode Mick Jagger préfère le rock sale au chuchotement cosmique.", "Ici, on parle plus de rockstar rincée que de moine zen.", "Le visage donne une vraie énergie de rappel trop long."],
     causeAddon: ["Le décor raconte surtout un after de scène resté collé au regard.", "Le rapport est sec, mais totalement dans le personnage.", "On lit une légende fatiguée, pas un simple petit nuage."],
     tipAddon: ["Réduis le show, garde l'équilibre et protège le peu de batterie scénique restant.", "Aujourd'hui, tu vises l'attitude minimale viable.", "Évite le grand solo, joue le morceau le plus simple."],
-    shareAddon: ["Le backstage a livré les preuves.", "Le miroir a lancé la version tournée mondiale rincée.", "Le verdict pique, mais il a de la guitare."],
+    shareAddon: ["Le backstage a livré les preuves.", "Le miroir a lancé la version tournée mondiale rincée.", "La lecture pique, mais elle a de la guitare."],
   },
   bureau: {
     badgePrefix: ["Rapport canapé", "Bilan velours", "Lecture salon profond", "Constat plaid premium"],
@@ -181,14 +181,14 @@ const modeVoices: Record<
     lineAddon: ["Le mode festival survivor te lit comme un retour de set très approximatif.", "On sent les basses encore coincées quelque part dans l'œil gauche.", "Le personnage arrive avec de la poussière, du soleil et un délai cognitif."],
     causeAddon: ["Le visage raconte surtout une fin de nuit qui a refusé de finir proprement.", "On lit une survivance joyeuse, un peu floue, très terrain vague.", "La vibe est celle d'un lever de soleil vécu trop près des enceintes."],
     tipAddon: ["Eau, ombre et deux phrases maximum, voilà déjà un plan crédible.", "Garde ton énergie pour rentrer entier dans la journée.", "Ce n'est pas le moment de prouver quoi que ce soit à qui que ce soit."],
-    shareAddon: ["Le set continue dans mon regard.", "Le lendemain de festival a signé la carte.", "Mon visage a gardé un bracelet imaginaire."],
+    shareAddon: ["Le set continue dans mon regard.", "Le retour de festival a signé la carte.", "Mon visage a gardé un bracelet imaginaire."],
   },
   parent: {
     badgePrefix: ["Rapport dub lunaire", "Bilan basse lente", "Lecture nébuleuse reggae", "Constat orbite dub"],
     lineAddon: ["Le mode dub lunaire ralentit tout jusqu'à la basse intérieure.", "Ça flotte en écho, version lune et enceintes fatiguées.", "Le personnage marche à contretemps du reste du monde."],
     causeAddon: ["Le tout ressemble à une séance de dub dans une pièce bleue et lente.", "On lit une gravité molle, presque sonore, très nuit qui traîne.", "La tête raconte un remix cosmique bien installé."],
     tipAddon: ["Trouve du calme, de l'eau et une fréquence plus stable que ton regard.", "Garde ton tempo doux au lieu de courir après les autres BPM.", "Le meilleur plan reste le mode basse lente et gestes minimum."],
-    shareAddon: ["La basse a écrit mon verdict.", "Le dub a trouvé un domicile dans mon visage.", "Mon regard mixe encore en fond."],
+    shareAddon: ["La basse a écrit ma carte.", "Le dub a trouvé un domicile dans mon visage.", "Mon regard mixe encore en fond."],
   },
   couple: {
     badgePrefix: ["Rapport astral discret", "Lecture plafond cosmique", "Bilan voyage lent", "Constat sortie de dimension"],
@@ -205,11 +205,11 @@ const modeVoices: Record<
     shareAddon: ["POV mon regard nage ailleurs.", "L'aquarium mental est officiellement ouvert.", "Très face cam, très poisson cosmique."],
   },
   "apres-soiree": {
-    badgePrefix: ["Rapport after", "Bilan rocker rincé", "Lecture lendemain amplifié", "Constat fin de scène"],
-    lineAddon: ["Le mode rocker d'after préfère les néons fatigués aux matins civils.", "Ça sent le cuir mental, la fin de nuit et le regard encore sur scène.", "Le personnage arrive avec du bruit résiduel dans la tête."],
-    causeAddon: ["Le visage parle surtout d'un lendemain amplifié qui ne s'excuse pas.", "On lit une retombée lente, plus rock que calme domestique.", "Le décor reste chargé, même quand la musique est coupée."],
+    badgePrefix: ["Rapport after", "Bilan rocker rincé", "Lecture retour amplifié", "Constat fin de scène"],
+    lineAddon: ["Le mode rocker d'after préfère les néons fatigués aux horaires normaux.", "Ça sent le cuir mental, la fin de nuit et le regard encore sur scène.", "Le personnage arrive avec du bruit résiduel dans la tête."],
+    causeAddon: ["Le visage parle surtout d'un retour amplifié qui ne s'excuse pas.", "On lit une retombée lente, plus rock que calme domestique.", "Le décor reste chargé, même quand la musique est coupée."],
     tipAddon: ["Joue la récupération digne, pas le rappel bonus.", "Évite toute suite inutile, la scène est déjà assez longue.", "Laisse ton système sortir du concert avant de lui demander d'être net."],
-    shareAddon: ["Le rappel est encore dans mes yeux.", "Le lendemain a gardé la guitare.", "Je sors d'un décor trop lumineux pour une journée normale."],
+    shareAddon: ["Le rappel est encore dans mes yeux.", "Le retour a gardé la guitare.", "Je sors d'un décor trop lumineux pour une journée normale."],
   },
   "avant-cafe": {
     badgePrefix: ["Rapport canapé premium", "Bilan moquette mentale", "Lecture fumée velours", "Constat coussin royal"],
@@ -403,7 +403,7 @@ function buildPhotoNote(analysis: VisionAnalysis) {
   }
 
   if (analysis.face_framing === "full_body") {
-    notes.push("Visage trop loin dans le cadre, le verdict devient plus approximatif.");
+    notes.push("Visage trop loin dans le cadre, la lecture devient plus approximative.");
   }
 
   return notes.length ? notes.join(" ") : undefined;

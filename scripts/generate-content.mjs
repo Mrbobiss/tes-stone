@@ -56,7 +56,7 @@ const tierDefs = {
       "un regard qui glisse doucement hors du powerpoint intérieur",
       "une détente faciale qui préfère clairement le canapé au timing",
       "une nonchalance assez visible pour mériter son badge",
-      "une ambiance qui ralentit tout sans demander la permission",
+      "une vibe qui ralentit tout sans demander la permission",
     ],
     tips: [
       "vise le confort, l'eau et des phrases plus courtes que d'habitude",
@@ -65,7 +65,7 @@ const tierDefs = {
       "garde les décisions simples et les gestes encore plus simples",
     ],
     challenges: [
-      "traverser la matinée sans expliquer l'univers à quelqu'un",
+      "traverser la journée sans expliquer l'univers à quelqu'un",
       "rester assis sans faire de dissertation cosmique",
       "garder tes réponses plus courtes que tes pensées",
       "survivre à un vocal sans partir en méta",
@@ -92,7 +92,7 @@ const tierDefs = {
       "un combo regard lent, paupières lourdes et détente haut de gamme",
       "une belle sortie de route vers une fréquence plus molle que la moyenne",
       "un visage qui choisit clairement la voie du grand flottement",
-      "une ambiance visuelle qui a déjà pris un billet pour la lenteur",
+      "une vibe visuelle qui a déjà pris un billet pour la lenteur",
     ],
     tips: [
       "garde de l'eau à portée et évite toute situation qui demande de la précision",
@@ -126,7 +126,7 @@ const tierDefs = {
     badgeSuffix: ["hors bureau", "impérial", "sans réponse", "en grève douce"],
     causes: [
       "une combinaison très premium de regard lointain, tête molle et orbite assumée",
-      "une sortie complète vers une ambiance parallèle beaucoup plus douce que la réalité",
+      "une sortie complète vers une dimension parallèle beaucoup plus douce que la réalité",
       "une disparition visuelle suffisamment noble pour mériter sa propre galerie",
       "une lenteur spatiale qui a gagné la négociation très tôt",
     ],
@@ -161,7 +161,7 @@ const modes = {
     gradient: ["from-rose-500", "via-orange-400", "to-amber-300"],
     universe: ["le zinc du coin", "le comptoir", "la dernière clope imaginaire", "la nappe à carreaux"],
     badges: ["de comptoir", "qui connaît la chanson", "mi-lyrique mi-perdu", "à voix cassée"],
-    causes: ["une ambiance de bar restée dans la rétine", "un personnage qui a dormi dans un refrain", "une poésie de comptoir trop bien installée"],
+    causes: ["une ambiance de bar restée dans la rétine", "un personnage coincé dans un refrain", "une poésie de comptoir trop bien installée"],
     tips: ["reste sur du simple, du lent et du verre d'eau discret", "évite de transformer chaque phrase en chanson triste", "garde juste assez de panache pour tenir jusqu'au midi"],
     challenges: ["sans citer un vieux couplet au mauvais moment", "sans refaire le monde avec la machine à café", "sans devenir le troubadour de la cuisine"],
     shares: ["et le comptoir a validé", "et mon regard a gardé le refrain", "et le zinc me réclame déjà"],
@@ -253,14 +253,14 @@ const modes = {
   "apres-soiree": {
     label: "Rocker d'after",
     icon: "🎸",
-    description: "Fin de scène, néons fatigués et lendemain amplifié.",
+    description: "Fin de scène, néons fatigués et retour amplifié.",
     gradient: ["from-amber-600", "via-rose-500", "to-purple-400"],
     universe: ["le rappel de trop", "le néon du retour", "la guitare fantôme", "la fin de scène"],
     badges: ["d'after", "en rappel", "très amplifié", "de fin de scène"],
-    causes: ["un lendemain qui n'a pas compris que le concert était fini", "un reste de nuit très amplifié", "une sortie de scène trop lente pour être honnête"],
+    causes: ["un retour qui n'a pas compris que le concert était fini", "un reste de nuit très amplifié", "une sortie de scène trop lente pour être honnête"],
     tips: ["évite le rappel bonus, vise la récupération digne", "laisse la scène se refermer avant de relancer quoi que ce soit", "reste dans le minimum viable jusqu'au retour du cerveau"],
     challenges: ["sans refaire un solo devant le frigo", "sans traiter le couloir comme une scène annexe", "avec plus d'eau que de légende"],
-    shares: ["et le rappel est encore dans mes yeux", "et la fin de scène dure étrangement longtemps", "et mon lendemain a gardé la guitare"],
+    shares: ["et le rappel est encore dans mes yeux", "et la fin de scène dure étrangement longtemps", "et mon retour a gardé la guitare"],
   },
   "avant-cafe": {
     label: "Canapé premium",
@@ -338,7 +338,7 @@ for (const [modeKey, mode] of Object.entries(modes)) {
       tier.roastLead.flatMap((lead) =>
         mode.universe.flatMap((place) => [
           `${lead}, version ${mode.label.toLowerCase()} entre ${place} et patience civile.`,
-          `${lead}, avec une vraie ambiance ${mode.label.toLowerCase()} sortie tout droit de ${place}.`,
+          `${lead}, avec une vraie ambiance ${mode.label.toLowerCase()} plongée dans ${place}.`,
           `${lead}. On sent ${place} quelque part derrière tes yeux.`,
         ]),
       ),
