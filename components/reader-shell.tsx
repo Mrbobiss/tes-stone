@@ -31,7 +31,7 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [zoomedImageId, setZoomedImageId] = useState<string | null>(null);
+  const [zoomLevel, setZoomLevel] = useState(1);
   const [controlsVisible, setControlsVisible] = useState(true);
   const [favoriteVersion, setFavoriteVersion] = useState(0);
 
@@ -211,7 +211,17 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
     const previous = lastTapRef.current[imageId] ?? 0;
 
     if (now - previous < 260) {
-      setZoomedImageId((current) => (current === imageId ? null : imageId));
+      setZoomLevel((current) => {
+        if (current < 1.25) {
+          return 1.25;
+        }
+
+        if (current < 1.5) {
+          return 1.5;
+        }
+
+        return 1;
+      });
       lastTapRef.current[imageId] = 0;
       return;
     }
@@ -298,6 +308,27 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
             </div>
 
             <div className="pointer-events-auto flex items-center gap-2">
+              <div className="flex items-center gap-1 rounded-full border border-white/10 bg-black/55 px-2 py-1 text-xs text-white/85 shadow-[0_10px_35px_rgba(0,0,0,0.35)] backdrop-blur-xl">
+                <button
+                  type="button"
+                  onClick={() => setZoomLevel((current) => Math.max(1, Number((current - 0.15).toFixed(2))))}
+                  className="rounded-full px-2 py-1 transition hover:bg-white/10"
+                  aria-label="Réduire le zoom"
+                  title="Réduire le zoom"
+                >
+                  −
+                </button>
+                <span className="min-w-11 text-center">{Math.round(zoomLevel * 100)}%</span>
+                <button
+                  type="button"
+                  onClick={() => setZoomLevel((current) => Math.min(1.8, Number((current + 0.15).toFixed(2))))}
+                  className="rounded-full px-2 py-1 transition hover:bg-white/10"
+                  aria-label="Augmenter le zoom"
+                  title="Augmenter le zoom"
+                >
+                  +
+                </button>
+              </div>
               <button
                 type="button"
                 onClick={() => {
@@ -344,8 +375,6 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
 
       <section className="mx-auto flex max-w-5xl flex-col bg-black pb-10">
         {volume.images.map((image, index) => {
-          const zoomed = zoomedImageId === image.id;
-
           return (
             <figure
               key={image.id}
@@ -355,7 +384,7 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
               data-index={index}
               className="relative scroll-mt-24 bg-black"
             >
-              <div className={zoomed ? "hide-scrollbar overflow-x-auto" : undefined}>
+              <div className={zoomLevel > 1 ? "hide-scrollbar overflow-x-auto" : undefined}>
                 <img
                   src={image.imageUrl}
                   alt={`${volume.name} page ${index + 1}`}
@@ -365,12 +394,27 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
                   referrerPolicy="no-referrer"
                   draggable={false}
                   onPointerUp={() => handleImageTap(image.id)}
-                  onDoubleClick={() => setZoomedImageId((current) => (current === image.id ? null : image.id))}
+                  onDoubleClick={() =>
+                    setZoomLevel((current) => {
+                      if (current < 1.25) {
+                        return 1.25;
+                      }
+
+                      if (current < 1.5) {
+                        return 1.5;
+                      }
+
+                      return 1;
+                    })
+                  }
                   className={`mx-auto block h-auto bg-black object-contain select-none ${
-                    zoomed
-                      ? "w-[160vw] max-w-none cursor-zoom-out"
-                      : "w-full max-w-[960px] cursor-zoom-in"
+                    zoomLevel > 1 ? "max-w-none" : "w-full max-w-[960px]"
                   }`}
+                  style={
+                    zoomLevel > 1
+                      ? { width: `${Math.round(zoomLevel * 100)}%`, minWidth: `${Math.round(zoomLevel * 100)}%` }
+                      : undefined
+                  }
                 />
               </div>
               <figcaption className="pointer-events-none absolute bottom-3 right-3 rounded-full border border-white/10 bg-black/60 px-3 py-1 text-[11px] text-white/70 backdrop-blur">
