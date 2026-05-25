@@ -272,60 +272,77 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
       />
 
       {controlsVisible ? (
-        <header className="sticky top-0 z-40 border-b border-white/10 bg-black/80 px-3 py-3 backdrop-blur">
-          <div className="mx-auto flex max-w-5xl items-center gap-3">
+        <div
+          className="fixed inset-x-0 top-0 z-40 px-3 pb-2 pt-3"
+          style={{ paddingTop: "max(0.75rem, env(safe-area-inset-top))" }}
+        >
+          <div className="mx-auto flex max-w-5xl items-start gap-2">
             <button
               type="button"
               onClick={() => router.push(`/?source=${encodeURIComponent(library.folderId)}`)}
-              className="rounded-full border border-white/15 px-3 py-2 text-sm text-white transition hover:border-white/30"
+              className="pointer-events-auto rounded-full border border-white/10 bg-black/55 px-3 py-2 text-sm font-medium text-white/90 shadow-[0_10px_35px_rgba(0,0,0,0.35)] backdrop-blur-xl transition hover:border-white/20 hover:bg-black/70"
+              aria-label="Retour à la bibliothèque"
             >
-              ← Bibliothèque
+              ←
             </button>
 
-            <div className="min-w-0 flex-1">
+            <div className="pointer-events-auto min-w-0 flex-1 rounded-[22px] border border-white/10 bg-black/55 px-4 py-2 shadow-[0_10px_35px_rgba(0,0,0,0.35)] backdrop-blur-xl">
               <p className="truncate text-sm font-semibold text-white">{volume.name}</p>
-              <p className="text-xs text-white/50">
-                Page {currentIndex + 1} / {volume.pageCount}
-              </p>
+              <div className="mt-1 flex items-center gap-2 text-[11px] text-white/55">
+                <span>
+                  {currentIndex + 1} / {volume.pageCount}
+                </span>
+                <span className="h-1 w-1 rounded-full bg-white/20" />
+                <span>{Math.round(progressPercent)}%</span>
+              </div>
             </div>
 
-            <button
-              type="button"
-              onClick={() => {
-                toggleFavorite(library.folderId, volume.slug);
-                setFavoriteVersion((value) => value + 1);
-              }}
-              className="rounded-full border border-white/15 px-3 py-2 text-sm text-white transition hover:border-fuchsia-400/40"
-            >
-              {isFavorite ? "★ Favori" : "☆ Favori"}
-            </button>
-            <button
-              type="button"
-              onClick={() => void toggleFullscreen()}
-              className="rounded-full border border-white/15 px-3 py-2 text-sm text-white transition hover:border-white/30"
-            >
-              Plein écran
-            </button>
-            <button
-              type="button"
-              onClick={() => setControlsVisible(false)}
-              className="rounded-full border border-white/15 px-3 py-2 text-sm text-white/80 transition hover:border-white/30"
-            >
-              Masquer l&apos;UI
-            </button>
+            <div className="pointer-events-auto flex items-center gap-2">
+              <button
+                type="button"
+                onClick={() => {
+                  toggleFavorite(library.folderId, volume.slug);
+                  setFavoriteVersion((value) => value + 1);
+                }}
+                className="rounded-full border border-white/10 bg-black/55 px-3 py-2 text-sm text-white/85 shadow-[0_10px_35px_rgba(0,0,0,0.35)] backdrop-blur-xl transition hover:border-fuchsia-400/40 hover:bg-black/70"
+                aria-label={isFavorite ? "Retirer des favoris" : "Ajouter aux favoris"}
+                title={isFavorite ? "Retirer des favoris" : "Ajouter aux favoris"}
+              >
+                {isFavorite ? "★" : "☆"}
+              </button>
+              <button
+                type="button"
+                onClick={() => void toggleFullscreen()}
+                className="rounded-full border border-white/10 bg-black/55 px-3 py-2 text-sm text-white/85 shadow-[0_10px_35px_rgba(0,0,0,0.35)] backdrop-blur-xl transition hover:border-white/20 hover:bg-black/70"
+                aria-label="Plein écran"
+                title="Plein écran"
+              >
+                ⤢
+              </button>
+              <button
+                type="button"
+                onClick={() => setControlsVisible(false)}
+                className="rounded-full border border-white/10 bg-black/55 px-3 py-2 text-sm text-white/85 shadow-[0_10px_35px_rgba(0,0,0,0.35)] backdrop-blur-xl transition hover:border-white/20 hover:bg-black/70"
+                aria-label="Masquer l'interface"
+                title="Masquer l'interface"
+              >
+                ×
+              </button>
+            </div>
           </div>
-        </header>
+        </div>
       ) : (
         <button
           type="button"
           onClick={() => setControlsVisible(true)}
-          className="fixed right-4 top-4 z-40 rounded-full border border-white/15 bg-black/60 px-4 py-2 text-sm text-white backdrop-blur"
+          className="fixed right-4 top-4 z-40 rounded-full border border-white/10 bg-black/55 px-4 py-2 text-sm text-white/90 shadow-[0_10px_35px_rgba(0,0,0,0.35)] backdrop-blur-xl transition hover:border-white/20 hover:bg-black/70"
+          style={{ top: "max(1rem, env(safe-area-inset-top))" }}
         >
-          Afficher l&apos;UI
+          UI
         </button>
       )}
 
-      <section className="mx-auto flex max-w-5xl flex-col bg-black pb-24">
+      <section className="mx-auto flex max-w-5xl flex-col bg-black pb-10">
         {volume.images.map((image, index) => {
           const zoomed = zoomedImageId === image.id;
 
@@ -364,22 +381,6 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
         })}
       </section>
 
-      <div className="fixed bottom-4 right-4 z-40 flex flex-col gap-2">
-        <button
-          type="button"
-          onClick={() => jumpToIndex(currentIndex - 1)}
-          className="rounded-full border border-white/15 bg-black/60 px-4 py-2 text-sm text-white backdrop-blur transition hover:border-white/30"
-        >
-          ↑ Précédente
-        </button>
-        <button
-          type="button"
-          onClick={() => jumpToIndex(currentIndex + 1)}
-          className="rounded-full border border-white/15 bg-black/60 px-4 py-2 text-sm text-white backdrop-blur transition hover:border-white/30"
-        >
-          ↓ Suivante
-        </button>
-      </div>
     </main>
   );
 }
