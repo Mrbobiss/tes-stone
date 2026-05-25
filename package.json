@@ -1,30 +1,26 @@
 {
   "name": "tes-stone",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint .",
-    "content:generate": "node scripts/generate-content.mjs"
+    "lint": "eslint ."
   },
   "dependencies": {
-    "@vercel/analytics": "^2.0.1",
-    "html-to-image": "^1.11.13",
-    "next": "16.2.6",
-    "react": "19.2.4",
-    "react-dom": "19.2.4",
-    "zod": "^4.4.3"
+    "next": "^15.5.18",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.2.6",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "@tailwindcss/postcss": "^4.1.12",
+    "@types/node": "^22.15.30",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "eslint": "^9.28.0",
+    "eslint-config-next": "^15.5.18",
+    "tailwindcss": "^4.1.12",
+    "typescript": "^5.8.3"
   }
 }
