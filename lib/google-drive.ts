@@ -78,14 +78,10 @@ function createVolumeSlug(name: string, id: string) {
 }
 
 function buildImageUrl(fileId: string) {
-  return `https://drive.google.com/uc?export=view&id=${fileId}`;
+  return `/api/drive/file/${fileId}`;
 }
 
 function buildThumbnailUrl(file: DriveFile) {
-  if (file.thumbnailLink) {
-    return file.thumbnailLink.replace(/=s\d+$/, "=s1200");
-  }
-
   return buildImageUrl(file.id);
 }
 
@@ -152,6 +148,26 @@ async function listAllFiles(parentId: string, mode: "folders" | "images") {
   } while (nextPageToken);
 
   return files;
+}
+
+export async function fetchDriveFileBinary(fileId: string) {
+  const apiKey = getApiKey();
+  const url = new URL(`${DRIVE_API_URL}/${fileId}`);
+
+  url.searchParams.set("alt", "media");
+  url.searchParams.set("key", apiKey);
+  url.searchParams.set("supportsAllDrives", "true");
+
+  const response = await fetch(url, {
+    next: { revalidate: 86400 },
+  });
+
+  if (!response.ok || !response.body) {
+    const text = await response.text();
+    throw new Error(`Impossible de charger l'image Google Drive (${response.status}): ${text}`);
+  }
+
+  return response;
 }
 
 function mapImage(file: DriveFile): LibraryImage {

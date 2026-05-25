@@ -4,7 +4,8 @@ Application web mobile-first type manga/webtoon, connectée à un dossier Google
 
 ## Fonctionnalités
 
-- colle un lien Google Drive ou un folder ID, l'app extrait automatiquement l'ID
+- charge automatiquement le dossier Google Drive configuré du site
+- tu peux aussi coller un autre lien Google Drive ou un folder ID, l'app extrait automatiquement l'ID
 - chaque sous-dossier devient un tome
 - récupération automatique des images JPG, PNG et WEBP
 - tri naturel des pages (`001`, `01`, `020-021`, etc.)
@@ -37,6 +38,7 @@ Puis ouvre <http://localhost:3000>
 
 ```env
 GOOGLE_API_KEY=
+DEFAULT_DRIVE_FOLDER_ID=1-G7MLzSBuB5n1KsvfpVXXAXBe7n55Ny_
 ```
 
 ## Obtenir une clé Google Drive API
@@ -63,6 +65,8 @@ Mon Manga/
 ```
 
 Les sous-dossiers sont traités comme des tomes.
+
+Par défaut, le projet est déjà configuré pour ouvrir automatiquement le dossier `1-G7MLzSBuB5n1KsvfpVXXAXBe7n55Ny_`.
 
 ## Scripts
 
@@ -117,6 +121,6 @@ public/
 
 ## Notes
 
-- les images sont affichées via `https://drive.google.com/uc?export=view&id=FILE_ID`
+- les images sont servies par une route backend Next.js qui proxifie Google Drive, ce qui évite les images cassées dans le lecteur
 - les appels Google Drive sont mis en cache côté serveur sur une courte durée
 - si aucun sous-dossier n'existe, l'app peut aussi lire directement les images du dossier racine

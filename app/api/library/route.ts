@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 import { getLibraryFromDrive } from "@/lib/google-drive";
+import { getDefaultDriveSource } from "@/lib/site-config";
 
 export const runtime = "nodejs";
 
@@ -8,14 +9,7 @@ export async function GET(request: NextRequest) {
   const source =
     request.nextUrl.searchParams.get("folder") ??
     request.nextUrl.searchParams.get("source") ??
-    "";
-
-  if (!source.trim()) {
-    return NextResponse.json(
-      { error: "Ajoute un lien Google Drive ou un folder ID." },
-      { status: 400 },
-    );
-  }
+    getDefaultDriveSource();
 
   try {
     const library = await getLibraryFromDrive(source);

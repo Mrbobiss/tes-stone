@@ -40,7 +40,7 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
       const source = initialSource || getSavedSource();
 
       if (!source) {
-        setError("Aucune bibliothèque active. Reviens à l'accueil pour coller ton lien Drive.");
+        setError("Aucune bibliothèque active n'a été trouvée.");
         setLoading(false);
         return;
       }
@@ -150,6 +150,7 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
     }
 
     const preload = new window.Image();
+    preload.referrerPolicy = "no-referrer";
     preload.src = nextImage.imageUrl;
   }, [currentIndex, volume]);
 

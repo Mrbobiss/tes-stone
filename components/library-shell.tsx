@@ -124,8 +124,8 @@ export function LibraryShell({ initialSource = "" }: LibraryShellProps) {
                   Bibliothèque mobile, simple, fluide, prête pour Vercel.
                 </h1>
                 <p className="max-w-xl text-sm leading-6 text-white/70 sm:text-base">
-                  Colle un lien de dossier Google Drive public, les tomes sont détectés automatiquement,
-                  les pages sont triées en natural sort, et la reprise de lecture reste mémorisée sur ton téléphone.
+                  Les tomes sont chargés automatiquement depuis le dossier Drive configuré, triés en natural sort,
+                  puis repris exactement là où tu t&apos;es arrêté sur ton téléphone.
                 </p>
               </div>
             </div>
@@ -148,7 +148,7 @@ export function LibraryShell({ initialSource = "" }: LibraryShellProps) {
             }}
           >
             <label className="space-y-2">
-              <span className="text-sm font-medium text-white/75">URL ou folder ID</span>
+              <span className="text-sm font-medium text-white/75">Changer de dossier manuellement (optionnel)</span>
               <input
                 value={input}
                 onChange={(event) => setInput(event.target.value)}
@@ -162,7 +162,7 @@ export function LibraryShell({ initialSource = "" }: LibraryShellProps) {
               disabled={loading}
               className="mt-auto rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-black transition hover:bg-fuchsia-200 disabled:cursor-not-allowed disabled:bg-white/20 disabled:text-white/60"
             >
-              {loading ? "Chargement..." : "Charger la bibliothèque"}
+              {loading ? "Chargement..." : "Recharger"}
             </button>
           </form>
 
@@ -221,7 +221,7 @@ export function LibraryShell({ initialSource = "" }: LibraryShellProps) {
           </section>
         ) : (
           <section className="rounded-[28px] border border-dashed border-white/10 bg-black/20 p-6 text-sm leading-6 text-white/55">
-            Charge un dossier Drive public pour générer automatiquement la bibliothèque, les couvertures, les slugs de tome et la lecture verticale.
+            Chargement automatique de la bibliothèque en cours. Si besoin, tu peux quand même remplacer la source Drive ci-dessus.
           </section>
         )}
       </div>
