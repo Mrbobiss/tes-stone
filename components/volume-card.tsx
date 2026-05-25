@@ -56,7 +56,7 @@ export function VolumeCard({
           <div className="space-y-2">
             <div className="flex items-center gap-2 text-[11px] uppercase tracking-[0.24em] text-white/45">
               {isCurrent ? <span className="text-fuchsia-300">Reprendre</span> : null}
-              <span>{volume.pageCount} pages</span>
+              <span>{volume.pageCount ? `${volume.pageCount} pages` : "Ouverture rapide"}</span>
             </div>
             <h2 className="line-clamp-2 text-lg font-semibold text-white">{volume.name}</h2>
           </div>
@@ -69,7 +69,7 @@ export function VolumeCard({
               />
             </div>
             <div className="flex items-center justify-between text-sm text-white/60">
-              <span>{Math.round(progressPercent)}%</span>
+              <span>{volume.pageCount ? `${Math.round(progressPercent)}%` : currentPage > 0 ? `Page ${currentPage}` : "Prêt"}</span>
               <span>{currentPage > 0 ? `Page ${currentPage}` : "Non commencé"}</span>
             </div>
           </div>

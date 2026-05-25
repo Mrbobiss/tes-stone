@@ -11,7 +11,7 @@ export type Volume = {
   id: string;
   name: string;
   slug: string;
-  pageCount: number;
+  pageCount: number | null;
   coverImage: LibraryImage | null;
   images: LibraryImage[];
 };

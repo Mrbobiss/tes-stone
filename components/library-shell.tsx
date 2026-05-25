@@ -155,7 +155,7 @@ export function LibraryShell({ initialSource = "" }: LibraryShellProps) {
                 const savedPageIndex = progressMap[volume.slug];
                 const currentPage = typeof savedPageIndex === "number" ? savedPageIndex + 1 : 0;
                 const progressPercent =
-                  typeof savedPageIndex === "number" && volume.pageCount > 0
+                  typeof savedPageIndex === "number" && typeof volume.pageCount === "number" && volume.pageCount > 0
                     ? Math.min(100, ((savedPageIndex + 1) / volume.pageCount) * 100)
                     : 0;
 

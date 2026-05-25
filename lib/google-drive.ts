@@ -202,6 +202,49 @@ function mapVolume(folder: DriveFile, images: DriveFile[], includeImages: boolea
   };
 }
 
+function mapVolumePreview(folder: DriveFile, coverFile: DriveFile | null): Volume {
+  return {
+    id: folder.id,
+    name: folder.name,
+    slug: createVolumeSlug(folder.name, folder.id),
+    pageCount: null,
+    coverImage: coverFile ? mapImage(coverFile) : null,
+    images: [],
+  };
+}
+
+async function listPreviewImage(parentId: string) {
+  const data = await driveRequest<DriveListResponse>({
+    q: `'${parentId}' in parents and trashed=false and (${IMAGE_MIME_TYPES.map((mime) => `mimeType='${mime}'`).join(" or ")})`,
+    fields: "files(id,name,mimeType,thumbnailLink,imageMediaMetadata(width,height))",
+    orderBy: "name_natural",
+    pageSize: "1",
+  });
+
+  return data.files[0] ?? null;
+}
+
+async function mapConcurrent<T, R>(
+  values: T[],
+  concurrency: number,
+  worker: (value: T) => Promise<R>,
+): Promise<R[]> {
+  const results: R[] = new Array(values.length);
+  let cursor = 0;
+
+  async function run() {
+    while (cursor < values.length) {
+      const currentIndex = cursor;
+      cursor += 1;
+      results[currentIndex] = await worker(values[currentIndex]);
+    }
+  }
+
+  const workers = Array.from({ length: Math.min(concurrency, values.length) }, () => run());
+  await Promise.all(workers);
+  return results;
+}
+
 export async function getLibraryFromDrive(
   source: string,
   options: { includeImages?: boolean } = {},
@@ -223,22 +266,32 @@ export async function getLibraryFromDrive(
   }
 
   const folderVolumes = await listAllFiles(folderId, "folders");
-  const volumes: Volume[] = [];
+  let volumes: Volume[] = [];
 
   if (folderVolumes.length === 0) {
     const rootImages = await listAllFiles(folderId, "images");
 
     if (rootImages.length > 0) {
-      volumes.push(mapVolume(rootFolder, rootImages, includeImages));
+      volumes = [mapVolume(rootFolder, rootImages, includeImages)];
     }
-  } else {
-    for (const folder of folderVolumes.sort((left, right) => naturalCompare(left.name, right.name))) {
-      const images = await listAllFiles(folder.id, "images");
+  } else if (includeImages) {
+    const orderedFolders = folderVolumes.sort((left, right) => naturalCompare(left.name, right.name));
 
-      if (images.length > 0) {
-        volumes.push(mapVolume(folder, images, includeImages));
-      }
-    }
+    volumes = (
+      await mapConcurrent(orderedFolders, 6, async (folder) => {
+        const images = await listAllFiles(folder.id, "images");
+        return images.length > 0 ? mapVolume(folder, images, true) : null;
+      })
+    ).filter((volume): volume is Volume => volume !== null);
+  } else {
+    const orderedFolders = folderVolumes.sort((left, right) => naturalCompare(left.name, right.name));
+
+    volumes = (
+      await mapConcurrent(orderedFolders, 10, async (folder) => {
+        const cover = await listPreviewImage(folder.id);
+        return cover ? mapVolumePreview(folder, cover) : null;
+      })
+    ).filter((volume): volume is Volume => volume !== null);
   }
 
   if (volumes.length === 0) {

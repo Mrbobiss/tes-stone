@@ -227,8 +227,10 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
     lastTapRef.current[imageId] = now;
   }
 
+  const pageTotal = typeof volume?.pageCount === "number" ? volume.pageCount : 0;
+
   const progressPercent = volume
-    ? Math.min(100, ((currentIndex + 1) / Math.max(1, volume.pageCount)) * 100)
+    ? Math.min(100, ((currentIndex + 1) / Math.max(1, pageTotal)) * 100)
     : 0;
 
   if (loading) {
@@ -299,7 +301,7 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
               <p className="truncate text-sm font-semibold text-white">{volume.name}</p>
               <div className="mt-1 flex items-center gap-2 text-[11px] text-white/55">
                 <span>
-                  {currentIndex + 1} / {volume.pageCount}
+                  {currentIndex + 1} / {pageTotal}
                 </span>
                 <span className="h-1 w-1 rounded-full bg-white/20" />
                 <span>{Math.round(progressPercent)}%</span>
