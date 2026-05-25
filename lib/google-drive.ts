@@ -1,7 +1,7 @@
 import "server-only";
 
 import { slugify, naturalCompare } from "@/lib/utils";
-import type { LibraryImage, LibraryResponse, Volume } from "@/types/manga";
+import type { LibraryImage, LibraryResponse, Volume, VolumeResponse } from "@/types/manga";
 
 type DriveFile = {
   id: string;
@@ -26,14 +26,23 @@ const CACHE_TTL_MS = 1000 * 60 * 5;
 
 const globalCache = globalThis as typeof globalThis & {
   __driveLibraryCache?: Map<string, { expiresAt: number; data: LibraryResponse }>;
+  __driveVolumeCache?: Map<string, { expiresAt: number; data: VolumeResponse }>;
 };
 
-function getCache() {
+function getLibraryCache() {
   if (!globalCache.__driveLibraryCache) {
     globalCache.__driveLibraryCache = new Map();
   }
 
   return globalCache.__driveLibraryCache;
+}
+
+function getVolumeCache() {
+  if (!globalCache.__driveVolumeCache) {
+    globalCache.__driveVolumeCache = new Map();
+  }
+
+  return globalCache.__driveVolumeCache;
 }
 
 function getApiKey() {
@@ -85,10 +94,7 @@ function buildThumbnailUrl(file: DriveFile) {
   return buildImageUrl(file.id);
 }
 
-async function driveRequest<T>(
-  params: Record<string, string>,
-  fileId?: string,
-): Promise<T> {
+async function driveRequest<T>(params: Record<string, string>, fileId?: string): Promise<T> {
   const url = new URL(fileId ? `${DRIVE_API_URL}/${fileId}` : DRIVE_API_URL);
   const apiKey = getApiKey();
 
@@ -181,7 +187,7 @@ function mapImage(file: DriveFile): LibraryImage {
   };
 }
 
-function mapVolume(folder: DriveFile, images: DriveFile[]): Volume {
+function mapVolume(folder: DriveFile, images: DriveFile[], includeImages: boolean): Volume {
   const sortedImages = [...images]
     .sort((left, right) => naturalCompare(left.name, right.name))
     .map(mapImage);
@@ -192,14 +198,19 @@ function mapVolume(folder: DriveFile, images: DriveFile[]): Volume {
     slug: createVolumeSlug(folder.name, folder.id),
     pageCount: sortedImages.length,
     coverImage: sortedImages[0] ?? null,
-    images: sortedImages,
+    images: includeImages ? sortedImages : [],
   };
 }
 
-export async function getLibraryFromDrive(source: string): Promise<LibraryResponse> {
+export async function getLibraryFromDrive(
+  source: string,
+  options: { includeImages?: boolean } = {},
+): Promise<LibraryResponse> {
+  const includeImages = options.includeImages ?? false;
   const folderId = extractDriveFolderId(source);
-  const cache = getCache();
-  const cached = cache.get(folderId);
+  const cacheKey = `${folderId}:${includeImages ? "full" : "library"}`;
+  const cache = getLibraryCache();
+  const cached = cache.get(cacheKey);
 
   if (cached && cached.expiresAt > Date.now()) {
     return cached.data;
@@ -218,14 +229,14 @@ export async function getLibraryFromDrive(source: string): Promise<LibraryRespon
     const rootImages = await listAllFiles(folderId, "images");
 
     if (rootImages.length > 0) {
-      volumes.push(mapVolume(rootFolder, rootImages));
+      volumes.push(mapVolume(rootFolder, rootImages, includeImages));
     }
   } else {
     for (const folder of folderVolumes.sort((left, right) => naturalCompare(left.name, right.name))) {
       const images = await listAllFiles(folder.id, "images");
 
       if (images.length > 0) {
-        volumes.push(mapVolume(folder, images));
+        volumes.push(mapVolume(folder, images, includeImages));
       }
     }
   }
@@ -242,7 +253,40 @@ export async function getLibraryFromDrive(source: string): Promise<LibraryRespon
     generatedAt: new Date().toISOString(),
   };
 
-  cache.set(folderId, {
+  cache.set(cacheKey, {
+    expiresAt: Date.now() + CACHE_TTL_MS,
+    data,
+  });
+
+  return data;
+}
+
+export async function getVolumeFromDrive(source: string, slug: string): Promise<VolumeResponse> {
+  const folderId = extractDriveFolderId(source);
+  const cacheKey = `${folderId}:${slug}`;
+  const cache = getVolumeCache();
+  const cached = cache.get(cacheKey);
+
+  if (cached && cached.expiresAt > Date.now()) {
+    return cached.data;
+  }
+
+  const library = await getLibraryFromDrive(source, { includeImages: true });
+  const volume = library.volumes.find((item) => item.slug === slug);
+
+  if (!volume) {
+    throw new Error("Ce tome est introuvable.");
+  }
+
+  const data: VolumeResponse = {
+    source: library.source,
+    folderId: library.folderId,
+    title: library.title,
+    volume,
+    generatedAt: library.generatedAt,
+  };
+
+  cache.set(cacheKey, {
     expiresAt: Date.now() + CACHE_TTL_MS,
     data,
   });

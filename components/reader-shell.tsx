@@ -6,15 +6,9 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
-import {
-  getProgressMap,
-  getSavedSource,
-  toggleFavorite,
-  updateProgress,
-  getFavorites,
-} from "@/lib/reader-storage";
+import { getFavorites, getProgressMap, toggleFavorite, updateProgress } from "@/lib/reader-storage";
 import { clamp } from "@/lib/utils";
-import type { LibraryResponse } from "@/types/manga";
+import type { Volume, VolumeResponse } from "@/types/manga";
 
 type ReaderShellProps = {
   initialSlug: string;
@@ -27,7 +21,9 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
   const restoredRef = useRef(false);
   const lastTapRef = useRef<Record<string, number>>({});
 
-  const [library, setLibrary] = useState<LibraryResponse | null>(null);
+  const [folderId, setFolderId] = useState("");
+  const [seriesTitle, setSeriesTitle] = useState("");
+  const [volume, setVolume] = useState<Volume | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -37,7 +33,7 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
 
   useEffect(() => {
     async function loadReader() {
-      const source = initialSource || getSavedSource();
+      const source = initialSource.trim();
 
       if (!source) {
         setError("Aucune bibliothèque active n'a été trouvée.");
@@ -49,14 +45,19 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
       setError("");
 
       try {
-        const response = await fetch(`/api/library?folder=${encodeURIComponent(source)}`);
-        const data = (await response.json()) as LibraryResponse | { error?: string };
+        const response = await fetch(
+          `/api/volume?source=${encodeURIComponent(source)}&slug=${encodeURIComponent(initialSlug)}`,
+        );
+        const data = (await response.json()) as VolumeResponse | { error?: string };
 
         if (!response.ok) {
           throw new Error("error" in data ? data.error : "Impossible de charger le lecteur.");
         }
 
-        setLibrary(data as LibraryResponse);
+        const payload = data as VolumeResponse;
+        setFolderId(payload.folderId);
+        setSeriesTitle(payload.title);
+        setVolume(payload.volume);
       } catch (caughtError) {
         setError(caughtError instanceof Error ? caughtError.message : "Erreur inconnue.");
       } finally {
@@ -65,14 +66,7 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
     }
 
     void loadReader();
-  }, [initialSource]);
-
-  const volume = useMemo(
-    () => library?.volumes.find((item) => item.slug === initialSlug) ?? null,
-    [initialSlug, library],
-  );
-
-  const folderId = library?.folderId ?? "";
+  }, [initialSlug, initialSource]);
 
   const isFavorite = useMemo(() => {
     void favoriteVersion;
@@ -85,22 +79,26 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
   }, [favoriteVersion, folderId, volume]);
 
   useEffect(() => {
-    if (!library || !volume || restoredRef.current) {
+    restoredRef.current = false;
+  }, [volume?.slug]);
+
+  useEffect(() => {
+    if (!folderId || !volume || restoredRef.current) {
       return;
     }
 
     restoredRef.current = true;
-    const savedIndex = getProgressMap(library.folderId)[volume.slug] ?? 0;
+    const savedIndex = getProgressMap(folderId)[volume.slug] ?? 0;
     const nextIndex = clamp(savedIndex, 0, Math.max(0, volume.images.length - 1));
     setCurrentIndex(nextIndex);
 
     window.setTimeout(() => {
       imageRefs.current[nextIndex]?.scrollIntoView({ block: "start", behavior: "auto" });
     }, 180);
-  }, [library, volume]);
+  }, [folderId, volume]);
 
   useEffect(() => {
-    if (!library || !volume) {
+    if (!volume) {
       return;
     }
 
@@ -129,15 +127,15 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
 
     elements.forEach((element) => observer.observe(element));
     return () => observer.disconnect();
-  }, [library, volume]);
+  }, [volume]);
 
   useEffect(() => {
-    if (!library || !volume) {
+    if (!folderId || !volume) {
       return;
     }
 
-    updateProgress(library.folderId, volume.slug, currentIndex);
-  }, [currentIndex, library, volume]);
+    updateProgress(folderId, volume.slug, currentIndex);
+  }, [currentIndex, folderId, volume]);
 
   useEffect(() => {
     if (!volume) {
@@ -236,7 +234,7 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
   if (loading) {
     return (
       <main className="flex min-h-screen items-center justify-center bg-black px-4 text-sm text-white/60">
-        Chargement du lecteur...
+        Ouverture du tome...
       </main>
     );
   }
@@ -257,14 +255,14 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
     );
   }
 
-  if (!library || !volume) {
+  if (!volume) {
     return (
       <main className="flex min-h-screen items-center justify-center bg-black px-4">
         <div className="max-w-md rounded-[28px] border border-white/10 bg-white/5 p-6 text-sm text-white/70">
           <p>Ce tome est introuvable ou la bibliothèque a changé.</p>
           <button
             type="button"
-            onClick={() => router.push(`/?source=${encodeURIComponent(initialSource || library?.folderId || "")}`)}
+            onClick={() => router.push(`/?source=${encodeURIComponent(initialSource || folderId || "")}`)}
             className="mt-4 rounded-full border border-white/15 px-4 py-2 text-white transition hover:border-white/35"
           >
             Retour à la bibliothèque
@@ -289,7 +287,7 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
           <div className="mx-auto flex max-w-5xl items-start gap-2">
             <button
               type="button"
-              onClick={() => router.push(`/?source=${encodeURIComponent(library.folderId)}`)}
+              onClick={() => router.push(`/?source=${encodeURIComponent(folderId)}`)}
               className="pointer-events-auto rounded-full border border-white/10 bg-black/55 px-3 py-2 text-sm font-medium text-white/90 shadow-[0_10px_35px_rgba(0,0,0,0.35)] backdrop-blur-xl transition hover:border-white/20 hover:bg-black/70"
               aria-label="Retour à la bibliothèque"
             >
@@ -297,6 +295,7 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
             </button>
 
             <div className="pointer-events-auto min-w-0 flex-1 rounded-[22px] border border-white/10 bg-black/55 px-4 py-2 shadow-[0_10px_35px_rgba(0,0,0,0.35)] backdrop-blur-xl">
+              <p className="truncate text-[11px] uppercase tracking-[0.24em] text-white/45">{seriesTitle}</p>
               <p className="truncate text-sm font-semibold text-white">{volume.name}</p>
               <div className="mt-1 flex items-center gap-2 text-[11px] text-white/55">
                 <span>
@@ -332,7 +331,7 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
               <button
                 type="button"
                 onClick={() => {
-                  toggleFavorite(library.folderId, volume.slug);
+                  toggleFavorite(folderId, volume.slug);
                   setFavoriteVersion((value) => value + 1);
                 }}
                 className="rounded-full border border-white/10 bg-black/55 px-3 py-2 text-sm text-white/85 shadow-[0_10px_35px_rgba(0,0,0,0.35)] backdrop-blur-xl transition hover:border-fuchsia-400/40 hover:bg-black/70"
@@ -424,7 +423,6 @@ export function ReaderShell({ initialSlug, initialSource = "" }: ReaderShellProp
           );
         })}
       </section>
-
     </main>
   );
 }

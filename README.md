@@ -1,11 +1,12 @@
 # Drive Manga Reader
 
-Application web mobile-first type manga/webtoon, connectée à un dossier Google Drive public.
+Application web mobile-first type manga/webtoon, pensée comme une vraie bibliothèque native, alimentée en arrière-plan par un dossier Google Drive public.
 
 ## Fonctionnalités
 
-- charge automatiquement le dossier Google Drive configuré du site
-- tu peux aussi coller un autre lien Google Drive ou un folder ID, l'app extrait automatiquement l'ID
+- charge automatiquement toute la bibliothèque configurée pour le site
+- la page d'accueil affiche directement tous les tomes comme une bibliothèque native
+- les pages d'un tome se chargent seulement à l'ouverture du tome pour garder une sensation fluide
 - chaque sous-dossier devient un tome
 - récupération automatique des images JPG, PNG et WEBP
 - tri naturel des pages (`001`, `01`, `020-021`, etc.)
@@ -38,7 +39,7 @@ Puis ouvre <http://localhost:3000>
 
 ```env
 GOOGLE_API_KEY=
-DEFAULT_DRIVE_FOLDER_ID=1-G7MLzSBuB5n1KsvfpVXXAXBe7n55Ny_
+DEFAULT_DRIVE_FOLDER_ID=1Cw6HaLqaswgHWeW5mmcuKzrNbXBd2wRs
 ```
 
 ## Obtenir une clé Google Drive API
@@ -66,7 +67,7 @@ Mon Manga/
 
 Les sous-dossiers sont traités comme des tomes.
 
-Par défaut, le projet est déjà configuré pour ouvrir automatiquement le dossier `1-G7MLzSBuB5n1KsvfpVXXAXBe7n55Ny_`.
+Par défaut, le projet est déjà configuré pour ouvrir automatiquement le dossier `1Cw6HaLqaswgHWeW5mmcuKzrNbXBd2wRs`.
 
 ## Scripts
 

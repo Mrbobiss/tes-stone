@@ -24,4 +24,12 @@ export type LibraryResponse = {
   generatedAt: string;
 };
 
+export type VolumeResponse = {
+  source: string;
+  folderId: string;
+  title: string;
+  volume: Volume;
+  generatedAt: string;
+};
+
 export type ProgressMap = Record<string, number>;

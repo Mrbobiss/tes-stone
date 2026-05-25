@@ -4,15 +4,8 @@ import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 
 import { VolumeCard } from "@/components/volume-card";
-import {
-  getFavorites,
-  getLastVolume,
-  getProgressMap,
-  getSavedSource,
-  setSavedSource,
-  toggleFavorite,
-} from "@/lib/reader-storage";
-import { naturalCompare, truncateMiddle } from "@/lib/utils";
+import { getFavorites, getLastVolume, getProgressMap, toggleFavorite } from "@/lib/reader-storage";
+import { naturalCompare } from "@/lib/utils";
 import type { LibraryResponse } from "@/types/manga";
 
 type LibraryShellProps = {
@@ -21,17 +14,16 @@ type LibraryShellProps = {
 
 export function LibraryShell({ initialSource = "" }: LibraryShellProps) {
   const didBootRef = useRef(false);
-  const [input, setInput] = useState(initialSource);
   const [library, setLibrary] = useState<LibraryResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [storageVersion, setStorageVersion] = useState(0);
 
-  async function loadLibrary(sourceValue: string, persistSource = true) {
+  async function loadLibrary(sourceValue: string) {
     const cleaned = sourceValue.trim();
 
     if (!cleaned) {
-      setError("Colle un lien Google Drive ou un folder ID.");
+      setError("La bibliothèque est introuvable.");
       return;
     }
 
@@ -47,9 +39,6 @@ export function LibraryShell({ initialSource = "" }: LibraryShellProps) {
       }
 
       setLibrary(data as LibraryResponse);
-      if (persistSource) {
-        setSavedSource(cleaned);
-      }
       setStorageVersion((value) => value + 1);
     } catch (caughtError) {
       setLibrary(null);
@@ -65,11 +54,9 @@ export function LibraryShell({ initialSource = "" }: LibraryShellProps) {
     }
 
     didBootRef.current = true;
-    const source = initialSource || getSavedSource();
 
-    if (source) {
-      setInput(source);
-      void loadLibrary(source, false);
+    if (initialSource) {
+      void loadLibrary(initialSource);
     }
   }, [initialSource]);
 
@@ -117,15 +104,14 @@ export function LibraryShell({ initialSource = "" }: LibraryShellProps) {
           <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
             <div className="max-w-2xl space-y-4">
               <span className="inline-flex items-center rounded-full border border-fuchsia-400/30 bg-fuchsia-500/10 px-3 py-1 text-[11px] font-medium uppercase tracking-[0.28em] text-fuchsia-200">
-                Lecteur manga Google Drive
+                Bibliothèque manga
               </span>
               <div className="space-y-3">
                 <h1 className="text-3xl font-semibold tracking-tight text-white sm:text-5xl">
-                  Bibliothèque mobile, simple, fluide, prête pour Vercel.
+                  Tous les tomes, directement dans l&apos;app.
                 </h1>
                 <p className="max-w-xl text-sm leading-6 text-white/70 sm:text-base">
-                  Les tomes sont chargés automatiquement depuis le dossier Drive configuré, triés en natural sort,
-                  puis repris exactement là où tu t&apos;es arrêté sur ton téléphone.
+                  Parcours la collection, reprends instantanément ta lecture, puis ouvre chaque tome au clic avec un chargement discret en arrière-plan.
                 </p>
               </div>
             </div>
@@ -140,37 +126,11 @@ export function LibraryShell({ initialSource = "" }: LibraryShellProps) {
             ) : null}
           </div>
 
-          <form
-            className="mt-6 grid gap-3 sm:grid-cols-[1fr_auto]"
-            onSubmit={(event) => {
-              event.preventDefault();
-              void loadLibrary(input);
-            }}
-          >
-            <label className="space-y-2">
-              <span className="text-sm font-medium text-white/75">Changer de dossier manuellement (optionnel)</span>
-              <input
-                value={input}
-                onChange={(event) => setInput(event.target.value)}
-                placeholder="https://drive.google.com/drive/folders/..."
-                className="w-full rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white outline-none transition placeholder:text-white/30 focus:border-fuchsia-400/50 focus:bg-white/10"
-              />
-            </label>
-
-            <button
-              type="submit"
-              disabled={loading}
-              className="mt-auto rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-black transition hover:bg-fuchsia-200 disabled:cursor-not-allowed disabled:bg-white/20 disabled:text-white/60"
-            >
-              {loading ? "Chargement..." : "Recharger"}
-            </button>
-          </form>
-
-          <div className="mt-4 flex flex-wrap gap-2 text-xs text-white/45">
-            <span className="rounded-full border border-white/10 px-3 py-1">Sous-dossiers = tomes</span>
-            <span className="rounded-full border border-white/10 px-3 py-1">Lecture verticale 9:16</span>
-            <span className="rounded-full border border-white/10 px-3 py-1">Sauvegarde locale</span>
-            <span className="rounded-full border border-white/10 px-3 py-1">JPG / PNG / WEBP</span>
+          <div className="mt-5 flex flex-wrap gap-2 text-xs text-white/45">
+            <span className="rounded-full border border-white/10 px-3 py-1">Tomes organisés automatiquement</span>
+            <span className="rounded-full border border-white/10 px-3 py-1">Lecture verticale mobile</span>
+            <span className="rounded-full border border-white/10 px-3 py-1">Progression mémorisée</span>
+            <span className="rounded-full border border-white/10 px-3 py-1">Ouverture au clic</span>
           </div>
 
           {error ? (
@@ -184,12 +144,10 @@ export function LibraryShell({ initialSource = "" }: LibraryShellProps) {
           <section className="space-y-5">
             <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
               <div>
-                <p className="text-sm text-white/45">Bibliothèque active</p>
+                <p className="text-sm text-white/45">Collection</p>
                 <h2 className="text-2xl font-semibold text-white sm:text-3xl">{library.title}</h2>
               </div>
-              <div className="text-sm text-white/55">
-                {library.volumes.length} tomes, source {truncateMiddle(library.folderId, 24)}
-              </div>
+              <div className="text-sm text-white/55">{library.volumes.length} tomes disponibles</div>
             </div>
 
             <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
@@ -221,7 +179,7 @@ export function LibraryShell({ initialSource = "" }: LibraryShellProps) {
           </section>
         ) : (
           <section className="rounded-[28px] border border-dashed border-white/10 bg-black/20 p-6 text-sm leading-6 text-white/55">
-            Chargement automatique de la bibliothèque en cours. Si besoin, tu peux quand même remplacer la source Drive ci-dessus.
+            {loading ? "Préparation de la bibliothèque..." : "La bibliothèque arrive."}
           </section>
         )}
       </div>
